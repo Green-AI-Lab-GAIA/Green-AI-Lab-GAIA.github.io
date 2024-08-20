@@ -1,1 +1,38 @@
 /* css styles */
+
+.listing-box {
+    margin-bottom: 20px;
+  }
+  
+  .listing-box-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listing-box-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .listing-box-subtitle, .listing-box-education {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .quarto-grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

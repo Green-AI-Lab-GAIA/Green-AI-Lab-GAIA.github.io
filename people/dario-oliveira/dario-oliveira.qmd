@@ -1,12 +1,13 @@
 ---
-title: "Nome Completo"
-last: "Sobrenome"
-first: "Nome"
-people_group: "postdoc | gradstudent | alumni"
-email: "nome@exemplo.com"
-subtitle: "Postdoctoral Fellow | Graduate Student, Department of X"
+title: "Dario Oliveira"
+last: "Oliveira"
+first: "Dario"
+people_group: "professor"
+email: "dario.oliveira@fgv.br"
+subtitle: "Adjunct Professor at the School of Applied Mathematics"
 description: "Breve descrição sobre a pessoa e sua pesquisa."
-education: "Data Scientist, FGV"
+education: "PhD, MsC, BsC"
+image: avatar.jpg
 
 # Layout da página
 page-layout: full
@@ -20,25 +21,10 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "mailto:nome@exemplo.com"
+      href: "dario.oliveira@fgv.br"
     - icon: linkedin
       text: LinkedIn
       href: "https://linkedin.com/in/nome"
 
 
 ---
-
-<hr>
-
-
-:::{#about}
-
-
-
-
-## Biography
-
-
-
-## Education
-

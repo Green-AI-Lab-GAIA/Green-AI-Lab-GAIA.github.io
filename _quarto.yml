@@ -18,6 +18,9 @@ website:
       - text: "Publications"
         href: publications/index.qmd
 
+      - text: "Courses"
+        href: courses/index.qmd
+
       - text: "About Us"
         href: about/index.qmd
     
