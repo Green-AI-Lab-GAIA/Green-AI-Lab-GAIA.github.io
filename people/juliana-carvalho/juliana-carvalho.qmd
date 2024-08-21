@@ -1,10 +1,10 @@
 ---
-title: "Dario Oliveira"
-last: "Oliveira"
-first: "Dario"
-people_group: "professor"
-email: "dario.oliveira@fgv.br"
-subtitle: "Adjunct Professor at the School of Applied Mathematics"
+title: "Juliana Carvalho"
+last: "Carvalho"
+first: "Juliana"
+people_group: "student"
+email: "example@hotmail.com"
+subtitle: "BsC Student, Researcher at GAIA Lab"
 description: "Breve descrição sobre a pessoa e sua pesquisa."
 education: "PhD, MsC, BsC"
 image: avatar.jpg
@@ -21,7 +21,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "dario.oliveira@fgv.br"
+      href: "example@hotmail.com"
     - icon: linkedin
       text: LinkedIn
       href: "https://linkedin.com/in/nome"
