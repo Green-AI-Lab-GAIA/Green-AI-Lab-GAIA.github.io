@@ -1,7 +1,11 @@
 ---
-title: "Mysite"
+toc: false
+format: 
+  html: 
+    include-in-header: images.html
+    sidebar: false
+    anchor-sections: false
+page-layout: full
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

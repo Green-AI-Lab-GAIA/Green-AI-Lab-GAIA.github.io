@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Mysite",
+    "title": "",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "&lt;div class=\"welcome-headline\"&gt;\n  Welcome to the GAIA Lab\n&lt;/div&gt;\n&lt;div class=\"welcome-subheadline\"&gt;\n  Advancing Sustainability through Deep Learning\n&lt;/div&gt;"
   },
   {
     "objectID": "about.html",
@@ -152,5 +152,33 @@
     "title": "Luiz Luz",
     "section": "Education",
     "text": "Education"
+  },
+  {
+    "objectID": "index.html#our-research-focus",
+    "href": "index.html#our-research-focus",
+    "title": "GAIA Lab - Sustainable AI Research",
+    "section": "",
+    "text": "At GAIA Lab, we apply state-of-the-art deep learning techniques to solve some of the most pressing challenges in sustainability:\n\nForests: Monitoring and preserving forests through remote sensing and AI-driven analysis.\nAgriculture: Enhancing sustainable agriculture practices with data-driven decision-making.\nEnvironmental Systems: Modeling and optimizing natural resources management using AI.\n\nOur interdisciplinary team collaborates with researchers, industry leaders, and policymakers to develop AI solutions that have real-world impact."
+  },
+  {
+    "objectID": "index.html#meet-our-team",
+    "href": "index.html#meet-our-team",
+    "title": "GAIA Lab - Sustainable AI Research",
+    "section": "",
+    "text": "Our team is composed of AI researchers, environmental scientists, and engineers dedicated to solving sustainability challenges. Meet the team and learn about their contributions.\n\nMeet the Team"
+  },
+  {
+    "objectID": "index.html#contact-us",
+    "href": "index.html#contact-us",
+    "title": "GAIA Lab - Sustainable AI Research",
+    "section": "",
+    "text": "If you are interested in collaborating or learning more about our research, feel free to reach out to us."
+  },
+  {
+    "objectID": "index.html#alternating-background-images",
+    "href": "index.html#alternating-background-images",
+    "title": "GAIA Lab - Sustainable AI Research",
+    "section": "",
+    "text": "&lt;h1&gt;GAIA Lab&lt;/h1&gt;\n&lt;p&gt;Deep Learning for Sustainability&lt;/p&gt;"
   }
 ]

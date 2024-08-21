@@ -1,5 +1,41 @@
 /* css styles */
 
+
+
+.home-background {
+  background-image: url('images/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ocupa toda a altura da tela */
+  width: 100vw;  /* Ocupa toda a largura da tela */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  position: relative;
+}
+
+.gradient-text {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5); /* Camada escura para melhorar a legibilidade do texto */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.welcome-headline {
+  font-size: 2.5rem; /* Tamanho do texto do título */
+  font-weight: bold;
+}
+
+.welcome-subheadline {
+  font-size: 1.5rem; /* Tamanho do texto do subtítulo */
+  margin-top: 10px;
+}
+
+
+/* people box */
+
 .listing-box {
     margin-bottom: 20px;
   }
