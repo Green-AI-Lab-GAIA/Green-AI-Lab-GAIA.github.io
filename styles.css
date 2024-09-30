@@ -13,12 +13,43 @@
   align-items: center; /* Centraliza verticalmente */
   justify-content: center; /* Centraliza horizontalmente */
   position: relative;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.logo-name span {
+  font-size: 4rem; /* Larger text */
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 0.1rem; 
+  color: white;
+
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main{
+  overflow: hidden;
 }
 
 .gradient-text {
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.5); /* Camada escura para melhorar a legibilidade do texto */
+  background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
 }
