@@ -1,0 +1,38 @@
+---
+title: "Dario Oliveira"
+last: "Oliveira"
+first: "Dario"
+people_group: "professor"
+email: "dario.oliveira@fgv.br"
+subtitle: "Adjunct Professor at the School of Applied Mathematics"
+description: "Breve descrição sobre a pessoa e sua pesquisa."
+education: "PhD, MsC, BsC"
+image: avatar.jpg
+
+# Layout da página
+page-layout: full
+
+# Seção About usando o template 'trestles'
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg # Nome da imagem da pessoa (mesma pasta)
+  links:
+    - icon: envelope
+      text: Email
+      href: "dario.oliveira@fgv.br"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://linkedin.com/in/nome"
+
+
+---
+
+
+
+## Biography
+
+
+
+## Education

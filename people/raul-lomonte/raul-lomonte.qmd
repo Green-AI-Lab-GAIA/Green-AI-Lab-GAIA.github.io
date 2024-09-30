@@ -1,0 +1,38 @@
+---
+title: "Raul Lomonte"
+last: "Lomonte"
+first: "Raul"
+people_group: "student"
+email: "example@hotmail.com"
+subtitle: "BsC Student, Researcher at GAIA Lab"
+description: "Breve descrição sobre a pessoa e sua pesquisa."
+education: "PhD, MsC, BsC"
+image: avatar.jpeg
+
+# Layout da página
+page-layout: full
+
+# Seção About usando o template 'trestles'
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg # Nome da imagem da pessoa (mesma pasta)
+  links:
+    - icon: envelope
+      text: Email
+      href: "example@hotmail.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://linkedin.com/in/nome"
+
+
+---
+
+
+
+## Biography
+
+
+
+## Education

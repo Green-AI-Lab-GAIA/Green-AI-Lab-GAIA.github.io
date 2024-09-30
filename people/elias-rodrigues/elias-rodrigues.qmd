@@ -1,0 +1,45 @@
+---
+title: "Elias Rodrigues"
+last: "Rodrigues"
+first: "Elias"
+people_group: "postdoc"
+email: "elias.rodrigues@fgv.br"
+subtitle: "Postdoctoral Fellow"
+description: "Breve descrição sobre a pessoa e sua pesquisa."
+education: "Data Scientist, FGV"
+image: avatar.png 
+
+# Layout da página
+page-layout: full
+
+# Seção About usando o template 'trestles'
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png # Nome da imagem da pessoa (mesma pasta)
+  links:
+    - icon: envelope
+      text: Email
+      href: "elias.rodrigues@fgv.br"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://linkedin.com/in/nome"
+
+
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+
+## Biography
+
+
+
+## Education
+

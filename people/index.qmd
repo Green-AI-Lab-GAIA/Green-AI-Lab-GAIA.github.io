@@ -1,0 +1,47 @@
+---
+title: "Meet the Team"
+listing:
+  - id: professor
+    include: 
+      people_group: "professor"
+    exclude:
+      external: true
+    template: ../_ejs/people-card.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: postdoc
+    include: 
+      people_group: "postdoc"
+    exclude:
+      external: true
+    template: ../_ejs/people-card.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: student
+    include: 
+      people_group: "student"
+    exclude:
+      external: true
+    template: ../_ejs/people-card.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+page-layout: full
+---
+
+## Professor
+
+::: {#professor}
+:::
+
+## Postdoctoral Fellows
+
+::: {#postdoc}
+:::
+
+## Students
+
+::: {#student}
+:::

@@ -1,0 +1,44 @@
+---
+title: "Nome Completo"
+last: "Sobrenome"
+first: "Nome"
+people_group: "postdoc | gradstudent | alumni"
+email: "nome@exemplo.com"
+subtitle: "Postdoctoral Fellow | Graduate Student, Department of X"
+description: "Breve descrição sobre a pessoa e sua pesquisa."
+education: "Data Scientist, FGV"
+
+# Layout da página
+page-layout: full
+
+# Seção About usando o template 'trestles'
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg # Nome da imagem da pessoa (mesma pasta)
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:nome@exemplo.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://linkedin.com/in/nome"
+
+
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+
+## Biography
+
+
+
+## Education
+
