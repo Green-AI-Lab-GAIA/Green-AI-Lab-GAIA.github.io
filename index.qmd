@@ -2,7 +2,7 @@
 toc: false
 format: 
   html: 
-    include-in-header: images.html
+    include-in-header: https://raw.githubusercontent.com/Green-AI-Lab-GAIA/Green-AI-Lab-GAIA.github.io/refs/heads/main/images.html?raw=true
     sidebar: false
     anchor-sections: false
     body-classes: "main"
