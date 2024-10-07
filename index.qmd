@@ -1,4 +1,5 @@
 ---
+title: "Green AI"
 toc: false
 format: 
   html: 
