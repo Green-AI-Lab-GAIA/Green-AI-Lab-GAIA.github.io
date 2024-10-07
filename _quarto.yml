@@ -12,17 +12,17 @@ website:
       - text: "People"
         href: people/index.qmd
 
-      - text: "Research"
-        href: research/index.qmd
+      # - text: "Research"
+      #   href: research/index.qmd
 
-      - text: "Publications"
-        href: publications/index.qmd
+      # - text: "Publications"
+      #   href: publications/index.qmd
 
-      - text: "Courses"
-        href: courses/index.qmd
+      # - text: "Courses"
+      #   href: courses/index.qmd
 
-      - text: "About Us"
-        href: about/index.qmd
+      # - text: "About Us"
+      #   href: about/index.qmd
     
 
 format:
