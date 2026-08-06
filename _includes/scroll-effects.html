@@ -1,0 +1,124 @@
+<script>
+  // Efeitos de rolagem usados nas páginas internas:
+  // - .reveal: aparece suavemente quando entra na tela;
+  // - .hscroll-wrap: carrossel horizontal com botões de avançar/voltar;
+  // - [data-count]: número que conta de zero até o valor ao aparecer;
+  // - .compare: comparador de imagens antes/depois com divisor arrastável.
+  // A classe has-js no <html> permite que, sem JavaScript, tudo fique visível.
+  document.documentElement.classList.add("has-js");
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var reduzido = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function contar(el) {
+      var alvo = parseInt(el.getAttribute("data-count"), 10);
+      var sufixo = el.getAttribute("data-suffix") || "";
+      if (reduzido) {
+        el.textContent = alvo + sufixo;
+        return;
+      }
+      var inicio = null;
+      function passo(agora) {
+        if (!inicio) inicio = agora;
+        var fracao = Math.min((agora - inicio) / 1200, 1);
+        el.textContent = Math.round(alvo * (1 - Math.pow(1 - fracao, 3))) + sufixo;
+        if (fracao < 1) requestAnimationFrame(passo);
+      }
+      requestAnimationFrame(passo);
+    }
+
+    var observador = new IntersectionObserver(function (entradas) {
+      for (var i = 0; i < entradas.length; i++) {
+        if (!entradas[i].isIntersecting) continue;
+        var el = entradas[i].target;
+        el.classList.add("revealed");
+        var numeros = el.querySelectorAll("[data-count]");
+        for (var j = 0; j < numeros.length; j++) contar(numeros[j]);
+        observador.unobserve(el);
+      }
+    }, { threshold: 0.15 });
+
+    var reveais = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveais.length; i++) observador.observe(reveais[i]);
+
+    var carrosseis = document.querySelectorAll(".hscroll-wrap");
+    for (var k = 0; k < carrosseis.length; k++) {
+      (function (wrap) {
+        var trilho = wrap.querySelector(".hscroll");
+        var passo = function () {
+          var carta = trilho.querySelector(".hs-card");
+          return carta ? carta.getBoundingClientRect().width + 16 : 340;
+        };
+        wrap.querySelector(".hscroll-btn.prev").addEventListener("click", function () {
+          trilho.scrollBy({ left: -passo(), behavior: reduzido ? "auto" : "smooth" });
+        });
+        wrap.querySelector(".hscroll-btn.next").addEventListener("click", function () {
+          trilho.scrollBy({ left: passo(), behavior: reduzido ? "auto" : "smooth" });
+        });
+      })(carrosseis[k]);
+    }
+
+    var comparadores = document.querySelectorAll(".compare");
+    for (var m = 0; m < comparadores.length; m++) {
+      (function (comp) {
+        var controle = comp.querySelector(".compare-range");
+        controle.addEventListener("input", function () {
+          comp.style.setProperty("--cut", controle.value + "%");
+        });
+      })(comparadores[m]);
+    }
+
+    // Galeria: clicar numa foto abre em tamanho grande; as setas (ou as teclas
+    // de seta) navegam entre as fotos, e Esc ou clique fora fecha
+    var fotos = document.querySelectorAll(".gallery-item img");
+    if (fotos.length) {
+      var atual = 0;
+      var seta = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>';
+      var caixa = document.createElement("div");
+      caixa.className = "lightbox";
+      caixa.innerHTML =
+        '<button class="lightbox-nav prev" aria-label="Anterior">' + seta + "</button>" +
+        '<img alt="">' +
+        '<button class="lightbox-nav next" aria-label="Próxima">' + seta + "</button>";
+      document.body.appendChild(caixa);
+      var ampliada = caixa.querySelector("img");
+
+      function exibir(indice) {
+        atual = (indice + fotos.length) % fotos.length;
+        ampliada.src = fotos[atual].src;
+        ampliada.alt = fotos[atual].alt;
+      }
+
+      function fechar() {
+        caixa.classList.remove("open");
+      }
+
+      for (var f = 0; f < fotos.length; f++) {
+        (function (indice) {
+          fotos[indice].addEventListener("click", function () {
+            exibir(indice);
+            caixa.classList.add("open");
+          });
+        })(f);
+      }
+      caixa.querySelector(".lightbox-nav.prev").addEventListener("click", function (evento) {
+        evento.stopPropagation();
+        exibir(atual - 1);
+      });
+      caixa.querySelector(".lightbox-nav.next").addEventListener("click", function (evento) {
+        evento.stopPropagation();
+        exibir(atual + 1);
+      });
+      ampliada.addEventListener("click", function (evento) {
+        evento.stopPropagation();
+      });
+      caixa.addEventListener("click", fechar);
+      document.addEventListener("keydown", function (evento) {
+        if (!caixa.classList.contains("open")) return;
+        if (evento.key === "Escape") fechar();
+        if (evento.key === "ArrowLeft") exibir(atual - 1);
+        if (evento.key === "ArrowRight") exibir(atual + 1);
+      });
+    }
+  });
+</script>

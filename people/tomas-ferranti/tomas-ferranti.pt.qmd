@@ -1,0 +1,50 @@
+---
+title: "Tomás Ferranti"
+last: "Ferranti"
+first: "Tomás"
+people_group: "phd"
+subtitle: "Pesquisador"
+education: "Doutorando, FGV EMAp"
+image: avatar.jpeg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/tomas-ferranti"
+    - icon: envelope
+      text: Email
+      href: "mailto:tomas_ferranti_07@hotmail.com"
+---
+
+::: {#perfil}
+
+Doutorando na FGV EMAp, mestre em Modelagem Matemática e com dupla graduação em Matemática Aplicada e em Ciência de Dados e IA pela mesma escola. Atua como cientista de dados na Proffer, com precificação inteligente e visualizações customizadas.
+
+## Formação
+
+- Doutorado — FGV EMAp (em andamento)
+- Mestrado em Modelagem Matemática — FGV EMAp, 2023–2025
+- Graduação em Ciência de Dados e IA — FGV EMAp, 2021–2022
+- Graduação em Matemática Aplicada — FGV EMAp, 2018–2021
+
+## Interesses
+
+Machine learning, visualização de dados e precificação.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```

@@ -1,0 +1,111 @@
+---
+title: "Publications"
+# Artigos: cada um é uma pasta com a página .pt/.en e a miniatura do PDF.
+# Notícias: itens declarados direto na listagem abaixo (link externo).
+# As duas listagens ordenam da mais recente para a mais antiga.
+listing:
+  - id: papers
+    contents:
+      - "*/*.en.qmd"
+    template: ../_ejs/publication-card.ejs
+    sort: "date desc"
+    fields: [title, image, date, paper-authors, pub-date, venue, snippet]
+  - id: news
+    contents:
+      - title: "Research uses AI-based system to predict meat quality from cellphone photos"
+        path: "https://portal.fgv.br/en/noticias/research-uses-ai-based-system-predict-meat-quality-cellphone-photos"
+        date: 2025-07-16
+        news-source: "FGV"
+        news-date: "July 16, 2025"
+        image: "images/news-carne.png"
+        summary: "Study paves the way for developing applications that help consumers identify, through images, softer and juicier cuts."
+      - title: "Study monitors deforestation and identifies plant species using artificial intelligence"
+        path: "https://portal.fgv.br/noticias/estudo-monitora-desmatamento-e-identifica-especies-vegetais-com-uso-de-inteligencia"
+        date: 2025-03-20
+        news-source: "FGV (in Portuguese)"
+        news-date: "March 20, 2025"
+        image: "images/news-desmatamento.jpg"
+        summary: "The LLP-Co method learns visual patterns and clusters large data volumes automatically, applied to identifying deforested areas and features of plant biodiversity in the Amazon rainforest."
+      - title: "Researchers create algorithm that classifies crops from satellite imagery"
+        path: "https://portal.fgv.br/noticias/pesquisadores-criam-algoritmo-realiza-classificacao-agricola-meio-imagens-satelite"
+        date: 2024-10-08
+        news-source: "FGV (in Portuguese)"
+        news-date: "October 8, 2024"
+        image: "images/news-agricultura.jpg"
+        summary: "FGV EMAp study is the first to use a global-proportions approach to classify crops through self-supervised clustering."
+    template: ../_ejs/news-card.ejs
+    sort: "date desc"
+resources:
+  - "images/"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="pub-search">
+  <input type="search" id="pub-search-input" class="pub-search-input"
+         placeholder="Search papers and news..." aria-label="Search publications">
+  <button type="button" id="pub-search-btn" class="pub-search-btn" aria-label="Search">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+         stroke-width="2.4" stroke-linecap="round">
+      <circle cx="10.5" cy="10.5" r="6.5"/>
+      <path d="m15.5 15.5 5.5 5.5"/>
+    </svg>
+  </button>
+</div>
+<div id="pub-search-empty" class="pub-search-empty" hidden>No results for this search.</div>
+
+<script>
+  // Filtra artigos e notícias pelo termo pesquisado (Enter ou clique na lupa);
+  // a comparação ignora maiúsculas e acentos. Limpar o campo restaura tudo.
+  document.addEventListener("DOMContentLoaded", function () {
+    var campo = document.getElementById("pub-search-input");
+    var botao = document.getElementById("pub-search-btn");
+    var vazio = document.getElementById("pub-search-empty");
+
+    function normalizar(texto) {
+      return texto.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    }
+
+    function pesquisar() {
+      var termo = normalizar(campo.value.trim());
+      var cartoes = document.querySelectorAll(".pub-card-link, .news-card");
+      var visiveis = 0;
+      for (var i = 0; i < cartoes.length; i++) {
+        var mostrar = !termo || normalizar(cartoes[i].textContent).indexOf(termo) !== -1;
+        cartoes[i].classList.toggle("filtered-out", !mostrar);
+        if (mostrar) visiveis++;
+      }
+      // Esconde a seção inteira (com o título) quando nada nela corresponde
+      var listas = [document.getElementById("listing-papers"), document.querySelector(".news-list")];
+      for (var j = 0; j < listas.length; j++) {
+        if (!listas[j]) continue;
+        var secao = listas[j].closest("section");
+        if (!secao) continue;
+        var temVisivel = listas[j].querySelector(".pub-card-link:not(.filtered-out), .news-card:not(.filtered-out)");
+        secao.style.display = temVisivel ? "" : "none";
+      }
+      vazio.hidden = visiveis > 0;
+    }
+
+    botao.addEventListener("click", pesquisar);
+    campo.addEventListener("keydown", function (evento) {
+      if (evento.key === "Enter") {
+        evento.preventDefault();
+        pesquisar();
+      }
+    });
+    campo.addEventListener("search", pesquisar);
+  });
+</script>
+```
+
+## Papers
+
+::: {#papers}
+:::
+
+## In the News
+
+::: {#news}
+:::

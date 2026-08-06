@@ -1,0 +1,569 @@
+[
+  {
+    "objectID": "research/index.en.html",
+    "href": "research/index.en.html",
+    "title": "Research",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing\nelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut\nenim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\n  \n    01\n    \n      Research area\n      Agriculture\n    \n  \n  Lorem ipsum dolor sit amet, consectetur\n  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna\n  aliqua ut enim ad minim veniam.\n\n  \n    \n    \n      Project 01Lorem ipsum hyperspectralConsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n      Project 02Dolor sit soil and yieldUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.\n      Project 03Amet consectetur pasturesDuis aute irure dolor in reprehenderit in voluptate velit esse cillum.\n      Project 04Tempor incididunt irrigationExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.\n      Project 05Magna aliqua phenologySed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.\n    \n    \n  \n\n\n\n  \n    02\n    \n      Research area\n      Forests\n    \n  \n  Lorem ipsum dolor sit amet, consectetur\n  adipiscing elit. Drag the divider to compare the same scene at two points in\n  time — sed do eiusmod tempor incididunt.\n\n  \n    \n    \n    \n    \n    2019\n    2025\n  \n  Illustrative simulation — lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n  \n    \n    \n      Project 01Lorem ipsum deforestationConsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n      Project 02Dolor sit tree speciesUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.\n      Project 03Amet consectetur reforestationDuis aute irure dolor in reprehenderit in voluptate velit esse cillum.\n      Project 04Tempor incididunt biodiversityExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.\n    \n    \n  \n\n\n\n  \n    03\n    \n      Research area\n      Climate\n    \n  \n  Lorem ipsum dolor sit amet, consectetur\n  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna\n  aliqua.\n\n  \n    \n    \n      Project 01Lorem ipsum extreme eventsConsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.\n      Project 02Dolor sit climate seriesUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.\n      Project 03Amet consectetur emissionsDuis aute irure dolor in reprehenderit in voluptate velit esse cillum.\n      Project 04Tempor incididunt forecastingExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+  },
+  {
+    "objectID": "publications/index.en.html#papers",
+    "href": "publications/index.en.html#papers",
+    "title": "Publications",
+    "section": "Papers",
+    "text": "Papers\n\n\n  \n    \n      \n        \n        \n          Deep Clustering for Climate: Analyzing Teleconnections through Learned Categorical States\n          Lívia Meinhardt, Dário Oliveira\n          April 2026 · arXiv preprint\n          Masked Siamese Networks discretize climate time series into semantically rich clusters, with statistical associations to El Niño events.\n        \n      \n    \n  \n    \n      \n        \n        \n          Exploring EnMAP hyperspectral images and ensemble deep learning for classifying forest land-cover types in Brazil\n          Matheus Pinheiro Ferreira, Matheus Santos Fuza, José M. S. M. Viveiros, Tomás Ferranti, Dário Oliveira, Giulio Brossi Santoro, Paulo Guilherme Molin, Catherine Torres de Almeida, Angélica F. Resende, Danilo R. A. de Almeida, Yelu Zeng, Ricardo Ribeiro Rodrigues, Pedro H. S. Brancalion\n          April 2026 · International Journal of Remote Sensing\n          Ensemble deep learning with EnMAP hyperspectral satellite imagery to classify tropical forest land-cover types in São Paulo, Brazil.\n        \n      \n    \n  \n    \n      \n        \n        \n          Finding the underlying viscoelastic constitutive equation via universal differential equations and differentiable physics\n          Elias C. Rodrigues, Roney L. Thompson, Dário A. B. Oliveira, Roberto F. Ausas\n          November 2025 · Engineering Applications of Artificial Intelligence\n          Universal Differential Equations and differentiable physics reconstruct missing terms in constitutive models of viscoelastic fluids.\n        \n      \n    \n  \n    \n      \n        \n        \n          Mapeamento da diversidade florística a partir de imagens de drone usando poucas anotações\n          Tomás Ferranti, Danilo L. Cardoso, Raul L. Figueiredo, Dário A. B. Oliveira, José Moneva, Matheus Fuza\n          January 2025 · SBMAC Proceedings\n          Deep learning pipeline to simplify floristic diversity mapping, identifying tree-crown species from drone imagery (in Portuguese).\n        \n      \n    \n  \n\nNo matching items"
+  },
+  {
+    "objectID": "publications/index.en.html#in-the-news",
+    "href": "publications/index.en.html#in-the-news",
+    "title": "Publications",
+    "section": "In the News",
+    "text": "In the News\n\n\n  \n    \n      \n        \n      \n      \n        FGV · July 16, 2025\n        Research uses AI-based system to predict meat quality from cellphone photos\n        Study paves the way for developing applications that help consumers identify, through images, softer and juicier cuts.\n      \n    \n  \n    \n      \n        \n      \n      \n        FGV (in Portuguese) · March 20, 2025\n        Study monitors deforestation and identifies plant species using artificial intelligence\n        The LLP-Co method learns visual patterns and clusters large data volumes automatically, applied to identifying deforested areas and features of plant biodiversity in the Amazon rainforest.\n      \n    \n  \n    \n      \n        \n      \n      \n        FGV (in Portuguese) · October 8, 2024\n        Researchers create algorithm that classifies crops from satellite imagery\n        FGV EMAp study is the first to use a global-proportions approach to classify crops through self-supervised clustering.\n      \n    \n  \n\nNo matching items"
+  },
+  {
+    "objectID": "publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html",
+    "href": "publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html",
+    "title": "Mapeamento da diversidade florística a partir de imagens de drone usando poucas anotações",
+    "section": "",
+    "text": "Schematic representation of the paper\n\n\n\n\nAuthors: Tomás Ferranti, Danilo L. Cardoso, Raul L. Figueiredo, Dário A. B. Oliveira, José Moneva, Matheus Fuza\nPublished: January 2025 — Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, vol. 11, no. 1, pp. 1–2 (in Portuguese)\nView publication"
+  },
+  {
+    "objectID": "publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html#abstract",
+    "href": "publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html#abstract",
+    "title": "Mapeamento da diversidade florística a partir de imagens de drone usando poucas anotações",
+    "section": "Abstract",
+    "text": "Abstract\nThe paper is written in Portuguese; the original abstract follows.\nOs produtores rurais brasileiros são responsáveis por parte da alimentação da nação e do mundo com commodities agrícolas. São mais de 5 milhões de pessoas trabalhadores da zona rural, enfrentando desafios climáticos, econômicos e sociais para garantir o alimento na mesa de todos. Apesar disso, sem vistoria apropriada eles não são recompensados pela manutenção e restauração da vegetação nativa. A remuneração desses ativos ambientais depende de um rigoroso processo de Monitoramento, Reporte e Verificação (MRV). Os métodos tradicionais de MRV são baseados em medições in loco e são onerosos, pois demandam uma logística complexa e levantamento em campo recorrentes. Por este motivo, a pesquisa por alternativas mais factíveis para o mapeamento da diversidade florística de uma região faz-se necessária. O objetivo do presente trabalho é apresentar um fluxo de dados que faz uso de diversas ferramentas da área de deep learning para simplificar a etapa de mapeamento identificando espécies de copas de árvores. Usando imagens aéreas RGB coletadas por drones, dois bancos de dados, supervisionado e não supervisionado, foram criados para esse objetivo. Uma amostra de anotação presente no supervisionado consiste em um polígono que delimita a região da imagem correspondente à copa de uma árvore de uma espécie. O banco supervisionado consiste em 10 espécies de árvores com aproximadamente 30 anotações para cada uma delas. O banco não supervisionado consiste em imagens georreferenciadas que cobrem uma área de 25 hectares com resolução 1.6 cm/pixel. […]"
+  },
+  {
+    "objectID": "publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html#cite-this-publication",
+    "href": "publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html#cite-this-publication",
+    "title": "Mapeamento da diversidade florística a partir de imagens de drone usando poucas anotações",
+    "section": "Cite this publication",
+    "text": "Cite this publication\n@inproceedings{ferranti2025mapeamento,\n  title     = {Mapeamento da diversidade flor{\\'i}stica a partir de imagens de\n               drone usando poucas anota{\\c{c}}{\\~o}es},\n  author    = {Ferranti, Tom{\\'a}s and Cardoso, Danilo L. and\n               Figueiredo, Raul L. and Oliveira, D{\\'a}rio A. B. and\n               Moneva, Jos{\\'e} and Fuza, Matheus},\n  booktitle = {Proceeding Series of the Brazilian Society of Computational\n               and Applied Mathematics},\n  volume    = {11},\n  number    = {1},\n  pages     = {1--2},\n  year      = {2025}\n}\n\n  \n  Back to publications"
+  },
+  {
+    "objectID": "people/tomas-ferranti/tomas-ferranti.en.html",
+    "href": "people/tomas-ferranti/tomas-ferranti.en.html",
+    "title": "Tomás Ferranti",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nPhD student at FGV EMAp, where he also earned an MSc in Mathematical Modeling and double BSc degrees in Applied Mathematics and in Data Science and AI. He works as a data scientist at Proffer, on smart pricing and custom data visualizations.\n\n\n\nPhD — FGV EMAp (in progress)\nMSc in Mathematical Modeling — FGV EMAp, 2023–2025\nBSc in Data Science and AI — FGV EMAp, 2021–2022\nBSc in Applied Mathematics — FGV EMAp, 2018–2021\n\n\n\n\nMachine learning, data visualization, and pricing."
+  },
+  {
+    "objectID": "people/tomas-ferranti/tomas-ferranti.en.html#education",
+    "href": "people/tomas-ferranti/tomas-ferranti.en.html#education",
+    "title": "Tomás Ferranti",
+    "section": "",
+    "text": "PhD — FGV EMAp (in progress)\nMSc in Mathematical Modeling — FGV EMAp, 2023–2025\nBSc in Data Science and AI — FGV EMAp, 2021–2022\nBSc in Applied Mathematics — FGV EMAp, 2018–2021"
+  },
+  {
+    "objectID": "people/tomas-ferranti/tomas-ferranti.en.html#interests",
+    "href": "people/tomas-ferranti/tomas-ferranti.en.html#interests",
+    "title": "Tomás Ferranti",
+    "section": "",
+    "text": "Machine learning, data visualization, and pricing."
+  },
+  {
+    "objectID": "people/sillas-costa/sillas-costa.en.html",
+    "href": "people/sillas-costa/sillas-costa.en.html",
+    "title": "Sillas da Rocha Costa",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nBSc student in Data Science and AI at FGV EMAp, scholarship holder of the CDMC Talent Selection program. He conducts undergraduate research (PIBIC/CNPq) at the GAIA Lab, advised by Prof. Dario Oliveira, applying deep learning and computer vision to satellite imagery. He also develops AI and RAG for the Mosqlimate project and served as a teaching assistant at EMAp.\n\n\n\nBSc in Data Science and AI — FGV EMAp, 2023–2026 (in progress)\nTechnical degree in Informatics — IFMS, 2020\n\n\n\n\nDeep learning, computer vision, geospatial modeling, and AI engineering."
+  },
+  {
+    "objectID": "people/sillas-costa/sillas-costa.en.html#education",
+    "href": "people/sillas-costa/sillas-costa.en.html#education",
+    "title": "Sillas da Rocha Costa",
+    "section": "",
+    "text": "BSc in Data Science and AI — FGV EMAp, 2023–2026 (in progress)\nTechnical degree in Informatics — IFMS, 2020"
+  },
+  {
+    "objectID": "people/sillas-costa/sillas-costa.en.html#interests",
+    "href": "people/sillas-costa/sillas-costa.en.html#interests",
+    "title": "Sillas da Rocha Costa",
+    "section": "",
+    "text": "Deep learning, computer vision, geospatial modeling, and AI engineering."
+  },
+  {
+    "objectID": "people/raul-lomonte/raul-lomonte.en.html",
+    "href": "people/raul-lomonte/raul-lomonte.en.html",
+    "title": "Raul Lomonte Figueiredo",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nDeep learning researcher at the GAIA Lab since 2023, focused on remote sensing applied to agribusiness. MSc student in Applied Mathematics and Data Science at FGV EMAp, where he also earned his BSc in Data Science and AI. He works as a computer vision engineer at Audsat and was a research data scientist at IRB(Re).\n\n\n\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2026\nBSc in Data Science and AI — FGV EMAp, 2021–2024\nTechnical degree in Informatics — IFSULDEMINAS, 2018–2020\n\n\n\n\nArtificial intelligence, remote sensing, and agribusiness."
+  },
+  {
+    "objectID": "people/raul-lomonte/raul-lomonte.en.html#education",
+    "href": "people/raul-lomonte/raul-lomonte.en.html#education",
+    "title": "Raul Lomonte Figueiredo",
+    "section": "",
+    "text": "MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2026\nBSc in Data Science and AI — FGV EMAp, 2021–2024\nTechnical degree in Informatics — IFSULDEMINAS, 2018–2020"
+  },
+  {
+    "objectID": "people/raul-lomonte/raul-lomonte.en.html#interests",
+    "href": "people/raul-lomonte/raul-lomonte.en.html#interests",
+    "title": "Raul Lomonte Figueiredo",
+    "section": "",
+    "text": "Artificial intelligence, remote sensing, and agribusiness."
+  },
+  {
+    "objectID": "people/lucas-westfal/lucas-westfal.en.html",
+    "href": "people/lucas-westfal/lucas-westfal.en.html",
+    "title": "Lucas Westfal",
+    "section": "",
+    "text": "LinkedIn\n  \n\n  \n  \nMSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Applied Mathematics from the same school, with a technical degree in mechatronics from IFSC. His research covers pervasive health, the Internet of Things, computer vision, and medical informatics.\n\n\n\nMSc — FGV EMAp (in progress)\nBSc in Applied Mathematics — FGV EMAp, 2021–2024\nTechnical degree in Mechatronics — IFSC, 2018–2020\n\n\n\n\nPervasive health, IoT, computer vision, and medical informatics."
+  },
+  {
+    "objectID": "people/lucas-westfal/lucas-westfal.en.html#education",
+    "href": "people/lucas-westfal/lucas-westfal.en.html#education",
+    "title": "Lucas Westfal",
+    "section": "",
+    "text": "MSc — FGV EMAp (in progress)\nBSc in Applied Mathematics — FGV EMAp, 2021–2024\nTechnical degree in Mechatronics — IFSC, 2018–2020"
+  },
+  {
+    "objectID": "people/lucas-westfal/lucas-westfal.en.html#interests",
+    "href": "people/lucas-westfal/lucas-westfal.en.html#interests",
+    "title": "Lucas Westfal",
+    "section": "",
+    "text": "Pervasive health, IoT, computer vision, and medical informatics."
+  },
+  {
+    "objectID": "people/juliana-carvalho/juliana-carvalho.en.html",
+    "href": "people/juliana-carvalho/juliana-carvalho.en.html",
+    "title": "Juliana Carvalho",
+    "section": "",
+    "text": "LinkedIn\n  \n\n  \n  \nPhD student in Artificial Intelligence at CNAM, in Paris, and Applied Scientist Intern at Microsoft. She holds BSc degrees in Data Science and AI and in Applied Mathematics from FGV EMAp, and an MASH MSc from Université Paris Dauphine–PSL. Her research covers deep learning, computer vision, and remote sensing.\n\n\n\nPhD in Computer Science — CNAM, 2025– (in progress)\nMASH MSc (Mathematics and AI) — Université Paris Dauphine–PSL, 2024–2025\nBSc in Data Science and AI — FGV EMAp, 2022–2024\nBSc in Applied Mathematics — FGV EMAp, 2020–2023\n\n\n\n\nDeep learning, computer vision, and remote sensing."
+  },
+  {
+    "objectID": "people/juliana-carvalho/juliana-carvalho.en.html#education",
+    "href": "people/juliana-carvalho/juliana-carvalho.en.html#education",
+    "title": "Juliana Carvalho",
+    "section": "",
+    "text": "PhD in Computer Science — CNAM, 2025– (in progress)\nMASH MSc (Mathematics and AI) — Université Paris Dauphine–PSL, 2024–2025\nBSc in Data Science and AI — FGV EMAp, 2022–2024\nBSc in Applied Mathematics — FGV EMAp, 2020–2023"
+  },
+  {
+    "objectID": "people/juliana-carvalho/juliana-carvalho.en.html#interests",
+    "href": "people/juliana-carvalho/juliana-carvalho.en.html#interests",
+    "title": "Juliana Carvalho",
+    "section": "",
+    "text": "Deep learning, computer vision, and remote sensing."
+  },
+  {
+    "objectID": "people/index.en.html",
+    "href": "people/index.en.html",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "Dario Oliveira \n                \n                \n                  Professor and GAIA Lab Coordinator\n                \n                \n                  \n                    PhD in Electrical Engineering, PUC-Rio\n                  \n                  \n                \n              \n          \n        \n      \n    \n  \n  \nNo matching items"
+  },
+  {
+    "objectID": "people/index.en.html#professor",
+    "href": "people/index.en.html#professor",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "Dario Oliveira \n                \n                \n                  Professor and GAIA Lab Coordinator\n                \n                \n                  \n                    PhD in Electrical Engineering, PUC-Rio\n                  \n                  \n                \n              \n          \n        \n      \n    \n  \n  \nNo matching items"
+  },
+  {
+    "objectID": "people/index.en.html#phd-students",
+    "href": "people/index.en.html#phd-students",
+    "title": "Meet the Team",
+    "section": "PhD Students",
+    "text": "PhD Students\n\n\n     \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Danilo Lemos Cardoso \n                \n                \n                  Researcher\n                \n                \n                  \n                    PhD Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Erick Brito \n                \n                \n                  Deep Learning Researcher\n                \n                \n                  \n                    PhD Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Lívia Cereja Meinhardt \n                \n                \n                  Deep Learning Researcher\n                \n                \n                  \n                    PhD Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Tomás Ferranti \n                \n                \n                  Researcher\n                \n                \n                  \n                    PhD Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n      \n    \n  \n  \nNo matching items"
+  },
+  {
+    "objectID": "people/index.en.html#masters",
+    "href": "people/index.en.html#masters",
+    "title": "Meet the Team",
+    "section": "Master’s",
+    "text": "Master’s\n\n\n     \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Gabriel Jacinto Pereira \n                \n                \n                  Researcher\n                \n                \n                  \n                    MSc Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Gustavo Danon \n                \n                \n                  Researcher\n                \n                \n                  \n                    MSc Student in Applied Mathematics and Data Science, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Hanna Ferreira \n                \n                \n                  Research Assistant\n                \n                \n                  \n                    MSc Student in Applied Mathematics and Data Science, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Heitor Trielli \n                \n                \n                  Researcher\n                \n                \n                  \n                    MSc Student in Applied Mathematics and Data Science, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  João Alcindo \n                \n                \n                  Research Assistant\n                \n                \n                  \n                    MSc in Applied Mathematics and Data Science, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Lucas Westfal \n                \n                \n                  Researcher\n                \n                \n                  \n                    MSc Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Raul Lomonte Figueiredo \n                \n                \n                  Deep Learning Researcher\n                \n                \n                  \n                    MSc Student in Applied Mathematics and Data Science, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Rodrigo Gomes Hutz Pintucci \n                \n                \n                  Researcher\n                \n                \n                  \n                    MSc Student, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Thiago Franke Melchiors \n                \n                \n                  Research Assistant\n                \n                \n                  \n                    MSc Student in Applied Mathematics and Data Science, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n      \n    \n  \n  \nNo matching items"
+  },
+  {
+    "objectID": "people/index.en.html#undergraduate",
+    "href": "people/index.en.html#undergraduate",
+    "title": "Meet the Team",
+    "section": "Undergraduate",
+    "text": "Undergraduate\n\n\n     \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Sillas da Rocha Costa \n                \n                \n                  Undergraduate Researcher (PIBIC/CNPq)\n                \n                \n                  \n                    BSc Student in Data Science and AI, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n      \n    \n  \n  \nNo matching items"
+  },
+  {
+    "objectID": "people/index.en.html#alumni",
+    "href": "people/index.en.html#alumni",
+    "title": "Meet the Team",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n     \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Elias Rodrigues \n                \n                \n                  Senior Data Scientist, Radix\n                \n                \n                  \n                    PhD in Mechanical Engineering, PUC-Rio\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Juliana Carvalho \n                \n                \n                  PhD Student in AI — CNAM, Paris\n                \n                \n                  \n                    PhD Student in Computer Science, CNAM\n                  \n                  \n                \n              \n          \n        \n       \n        \n          \n            \n              \n                \n              \n              \n                \n                  Luiz Luz \n                \n                \n                  Generative AI Engineer, Dharma AI\n                \n                \n                  \n                    MSc in Mathematical Modeling, FGV EMAp\n                  \n                  \n                \n              \n          \n        \n      \n    \n  \n  \nNo matching items"
+  },
+  {
+    "objectID": "people/hanna-ferreira/hanna-ferreira.en.html",
+    "href": "people/hanna-ferreira/hanna-ferreira.en.html",
+    "title": "Hanna Ferreira",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nResearch assistant at the GAIA Lab, applying deep learning models to satellite imagery and environmental challenges. MSc student in Applied Mathematics and Data Science at FGV EMAp, with double BSc degrees in Applied Mathematics and in Data Science and AI. She also researches computer vision at CBPF.\n\n\n\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2027\nBSc in Data Science and AI — FGV EMAp, 2021–2024\nBSc in Applied Mathematics — FGV EMAp, 2019–2023\n\n\n\n\nDeep learning, computer vision, and LiDAR."
+  },
+  {
+    "objectID": "people/hanna-ferreira/hanna-ferreira.en.html#education",
+    "href": "people/hanna-ferreira/hanna-ferreira.en.html#education",
+    "title": "Hanna Ferreira",
+    "section": "",
+    "text": "MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2027\nBSc in Data Science and AI — FGV EMAp, 2021–2024\nBSc in Applied Mathematics — FGV EMAp, 2019–2023"
+  },
+  {
+    "objectID": "people/hanna-ferreira/hanna-ferreira.en.html#interests",
+    "href": "people/hanna-ferreira/hanna-ferreira.en.html#interests",
+    "title": "Hanna Ferreira",
+    "section": "",
+    "text": "Deep learning, computer vision, and LiDAR."
+  },
+  {
+    "objectID": "people/gabriel-jacinto/gabriel-jacinto.en.html",
+    "href": "people/gabriel-jacinto/gabriel-jacinto.en.html",
+    "title": "Gabriel Jacinto Pereira",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nMSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Data Science and AI from the same school, CDMC merit scholarship holder and multi-medalist in science olympiads (OBMEP, OBA). He interned in data science and engineering at C Capital.\n\n\n\nMSc — FGV EMAp (in progress)\nBSc in Data Science and AI — FGV EMAp, 2022–2025\n\n\n\n\nMachine learning, time series, and applied mathematics."
+  },
+  {
+    "objectID": "people/gabriel-jacinto/gabriel-jacinto.en.html#education",
+    "href": "people/gabriel-jacinto/gabriel-jacinto.en.html#education",
+    "title": "Gabriel Jacinto Pereira",
+    "section": "",
+    "text": "MSc — FGV EMAp (in progress)\nBSc in Data Science and AI — FGV EMAp, 2022–2025"
+  },
+  {
+    "objectID": "people/gabriel-jacinto/gabriel-jacinto.en.html#interests",
+    "href": "people/gabriel-jacinto/gabriel-jacinto.en.html#interests",
+    "title": "Gabriel Jacinto Pereira",
+    "section": "",
+    "text": "Machine learning, time series, and applied mathematics."
+  },
+  {
+    "objectID": "people/elias-rodrigues/elias-rodrigues.en.html",
+    "href": "people/elias-rodrigues/elias-rodrigues.en.html",
+    "title": "Elias Rodrigues",
+    "section": "",
+    "text": "LinkedIn\n  \n\n  \n  \nPhD in Mechanical Engineering from PUC-Rio, MSc from UFRJ, and BSc in Physics from UERJ, with an MBA in Data Science from ICMC-USP. He was an applied machine learning specialist at FGV (2023–2025), working with physics-based models (PINNs, Neural ODEs). He is currently a researcher and senior data scientist at Radix.\n\n\n\nMBA in Data Science — ICMC/USP, 2023–2024\nPhD in Mechanical Engineering — PUC-Rio, 2014–2018\nMSc in Civil Engineering (Computational Geophysics) — UFRJ, 2009–2011\nBSc in Physics — UERJ, 2004–2008\n\n\n\n\nScientific machine learning, computational simulation, and predictive models."
+  },
+  {
+    "objectID": "people/elias-rodrigues/elias-rodrigues.en.html#education",
+    "href": "people/elias-rodrigues/elias-rodrigues.en.html#education",
+    "title": "Elias Rodrigues",
+    "section": "",
+    "text": "MBA in Data Science — ICMC/USP, 2023–2024\nPhD in Mechanical Engineering — PUC-Rio, 2014–2018\nMSc in Civil Engineering (Computational Geophysics) — UFRJ, 2009–2011\nBSc in Physics — UERJ, 2004–2008"
+  },
+  {
+    "objectID": "people/elias-rodrigues/elias-rodrigues.en.html#interests",
+    "href": "people/elias-rodrigues/elias-rodrigues.en.html#interests",
+    "title": "Elias Rodrigues",
+    "section": "",
+    "text": "Scientific machine learning, computational simulation, and predictive models."
+  },
+  {
+    "objectID": "people/danilo-cardoso/danilo-cardoso.en.html",
+    "href": "people/danilo-cardoso/danilo-cardoso.en.html",
+    "title": "Danilo Lemos Cardoso",
+    "section": "",
+    "text": "LinkedIn\n  \n\n  \n  \nResearcher at the GAIA Lab. PhD student at FGV EMAp, where he also earned an MSc in Mathematical Modeling and a BSc in Applied Mathematics, along with a technical degree in electronics from COLTEC/UFMG.\n\n\n\nPhD — FGV EMAp (in progress)\nMSc in Mathematical Modeling — FGV EMAp, 2023–2025\nBSc in Applied Mathematics — FGV EMAp, 2019–2022\nTechnical degree in Electronics — COLTEC/UFMG, 2015–2018\n\n\n\n\nProgramming, Linux, and problem solving."
+  },
+  {
+    "objectID": "people/danilo-cardoso/danilo-cardoso.en.html#education",
+    "href": "people/danilo-cardoso/danilo-cardoso.en.html#education",
+    "title": "Danilo Lemos Cardoso",
+    "section": "",
+    "text": "PhD — FGV EMAp (in progress)\nMSc in Mathematical Modeling — FGV EMAp, 2023–2025\nBSc in Applied Mathematics — FGV EMAp, 2019–2022\nTechnical degree in Electronics — COLTEC/UFMG, 2015–2018"
+  },
+  {
+    "objectID": "people/danilo-cardoso/danilo-cardoso.en.html#interests",
+    "href": "people/danilo-cardoso/danilo-cardoso.en.html#interests",
+    "title": "Danilo Lemos Cardoso",
+    "section": "",
+    "text": "Programming, Linux, and problem solving."
+  },
+  {
+    "objectID": "about/index.en.html",
+    "href": "about/index.en.html",
+    "title": "About Us",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, applying\ndeep learning to the monitoring of\nclimate, forests, and\nagriculture — consectetur adipiscing elit, sed do\neiusmod tempor incididunt."
+  },
+  {
+    "objectID": "about/index.en.html#our-history",
+    "href": "about/index.en.html#our-history",
+    "title": "About Us",
+    "section": "Our history",
+    "text": "Our history\n\n  \n    2023\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit — the lab is founded at FGV EMAp, sed do eiusmod tempor incididunt.\n  \n  \n    2024\n    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n  \n  \n    2025\n    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n  \n  \n    2026\n    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "about/index.en.html#gallery",
+    "href": "about/index.en.html#gallery",
+    "title": "About Us",
+    "section": "Gallery",
+    "text": "Gallery\n\n  \n    \n    Official photo of the GAIA Lab research group"
+  },
+  {
+    "objectID": "about/index.en.html#how-we-work",
+    "href": "about/index.en.html#how-we-work",
+    "title": "About Us",
+    "section": "How we work",
+    "text": "How we work\n\n  \n  \n    Principle 01Lorem ipsum open scienceConsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.\n    Principle 02Dolor sit collaborationUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n    Principle 03Amet consectetur real impactDuis aute irure dolor in reprehenderit in voluptate velit esse cillum.\n    Principle 04Tempor incididunt trainingExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.\n  \n  \n\n\n\n  Join us\n  Meet the team"
+  },
+  {
+    "objectID": "courses/index.en.html",
+    "href": "courses/index.en.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Graduate Program — EMAp\n      Neural Networks and Deep Learning\n      \n        Professor: Dário Oliveira\n        Course load: 60h\n        Classes: in person, Mondays and Tuesdays, 2:20–4:00 pm (Brasília time)\n        Offered: every second semester\n      \n      Program page\n    \n  \n\n  \n    \n    \n      Undergraduate — Data Science and AI, EMAp\n      Deep Learning\n      \n        Professor: Dário Oliveira\n        Course load: 60h\n        Classes: in person, Tuesdays and Thursdays, 9:20–11:00 am (Brasília time)\n        Offered: every second semester\n      \n      Course page"
+  },
+  {
+    "objectID": "join-us/index.en.html",
+    "href": "join-us/index.en.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "The GAIA Lab is always open to students and researchers interested in artificial intelligence applied to remote sensing, climate, forests, and agriculture. Fill in the form below: it assembles an introduction email to the lab coordinator — review it and send it from your own email.\n\n  Name\n  \n\n  Your email\n  \n\n  Intended level\n  \n    Undergraduate research\n    Master's\n    PhD\n    Postdoc\n    Other\n  \n\n  Message\n  \n\n  Prepare email\n\n\nOr write directly to\ndario.oliveira@fgv.br\n(click to copy the address).\n\n\n  \n  Back to home"
+  },
+  {
+    "objectID": "people/dario-oliveira/dario-oliveira.en.html",
+    "href": "people/dario-oliveira/dario-oliveira.en.html",
+    "title": "Dario Oliveira",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nProfessor at the FGV School of Applied Mathematics (EMAp) and coordinator of the GAIA Lab. He was a senior researcher at IBM Research, research scientist at GE Global Research, and guest professor at the Technical University of Munich (TUM). His research focuses on spatiotemporal AI applied to remote sensing, sustainability, climate, forests, and digital agriculture.\n\n\n\nPhD in Electrical Engineering (image analysis and computer vision) — PUC-Rio, 2013\nMSc in Electrical Engineering — PUC-Rio, 2009\nBSc in Electrical Engineering — UERJ, 2007\n\n\n\n\nSpatiotemporal AI, remote sensing, sustainability, climate, forests, and digital agriculture."
+  },
+  {
+    "objectID": "people/dario-oliveira/dario-oliveira.en.html#education",
+    "href": "people/dario-oliveira/dario-oliveira.en.html#education",
+    "title": "Dario Oliveira",
+    "section": "",
+    "text": "PhD in Electrical Engineering (image analysis and computer vision) — PUC-Rio, 2013\nMSc in Electrical Engineering — PUC-Rio, 2009\nBSc in Electrical Engineering — UERJ, 2007"
+  },
+  {
+    "objectID": "people/dario-oliveira/dario-oliveira.en.html#interests",
+    "href": "people/dario-oliveira/dario-oliveira.en.html#interests",
+    "title": "Dario Oliveira",
+    "section": "",
+    "text": "Spatiotemporal AI, remote sensing, sustainability, climate, forests, and digital agriculture."
+  },
+  {
+    "objectID": "people/erick-brito/erick-brito.en.html",
+    "href": "people/erick-brito/erick-brito.en.html",
+    "title": "Erick Brito",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nDeep learning researcher at the GAIA Lab since 2024. PhD student at FGV EMAp, where he also earned an MSc in Applied Mathematics and Data Science and a BSc in Applied Mathematics.\n\n\n\nPhD — FGV EMAp (in progress)\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2024–2025\nBSc in Applied Mathematics — FGV EMAp, 2020–2023\n\n\n\n\nComputer vision, artificial intelligence, and algorithms."
+  },
+  {
+    "objectID": "people/erick-brito/erick-brito.en.html#education",
+    "href": "people/erick-brito/erick-brito.en.html#education",
+    "title": "Erick Brito",
+    "section": "",
+    "text": "PhD — FGV EMAp (in progress)\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2024–2025\nBSc in Applied Mathematics — FGV EMAp, 2020–2023"
+  },
+  {
+    "objectID": "people/erick-brito/erick-brito.en.html#interests",
+    "href": "people/erick-brito/erick-brito.en.html#interests",
+    "title": "Erick Brito",
+    "section": "",
+    "text": "Computer vision, artificial intelligence, and algorithms."
+  },
+  {
+    "objectID": "people/gustavo-danon/gustavo-danon.en.html",
+    "href": "people/gustavo-danon/gustavo-danon.en.html",
+    "title": "Gustavo Danon",
+    "section": "",
+    "text": "LinkedIn\n  \n\n  \n  \nComputer engineer from the Military Institute of Engineering (IME) and MSc student in Applied Mathematics and Data Science at FGV EMAp. He worked as a data scientist at Open Co and as a research assistant at the Consiglio Nazionale delle Ricerche in Pisa.\n\n\n\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2025–\nBSc in Computer Engineering — IME, 2020–2024\n\n\n\n\nData science, machine learning, and computing."
+  },
+  {
+    "objectID": "people/gustavo-danon/gustavo-danon.en.html#education",
+    "href": "people/gustavo-danon/gustavo-danon.en.html#education",
+    "title": "Gustavo Danon",
+    "section": "",
+    "text": "MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–\nBSc in Computer Engineering — IME, 2020–2024"
+  },
+  {
+    "objectID": "people/gustavo-danon/gustavo-danon.en.html#interests",
+    "href": "people/gustavo-danon/gustavo-danon.en.html#interests",
+    "title": "Gustavo Danon",
+    "section": "",
+    "text": "Data science, machine learning, and computing."
+  },
+  {
+    "objectID": "people/heitor-trielli/heitor-trielli.en.html",
+    "href": "people/heitor-trielli/heitor-trielli.en.html",
+    "title": "Heitor Trielli",
+    "section": "",
+    "text": "LinkedIn\n  \n\n  \n  \nMSc student in Applied Mathematics and Data Science at FGV EMAp, holding an MSc and a BSc in Economics from FGV EPGE. He works as a senior data scientist at MT2 Data.\n\n\n\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2027\nMSc in Economics — FGV EPGE, 2020–2023\nBSc in Economics — FGV EPGE, 2017–2020\n\n\n\n\nCausal inference, econometrics, and programming in Python, R, and Julia."
+  },
+  {
+    "objectID": "people/heitor-trielli/heitor-trielli.en.html#education",
+    "href": "people/heitor-trielli/heitor-trielli.en.html#education",
+    "title": "Heitor Trielli",
+    "section": "",
+    "text": "MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2027\nMSc in Economics — FGV EPGE, 2020–2023\nBSc in Economics — FGV EPGE, 2017–2020"
+  },
+  {
+    "objectID": "people/heitor-trielli/heitor-trielli.en.html#interests",
+    "href": "people/heitor-trielli/heitor-trielli.en.html#interests",
+    "title": "Heitor Trielli",
+    "section": "",
+    "text": "Causal inference, econometrics, and programming in Python, R, and Julia."
+  },
+  {
+    "objectID": "people/joao-alcindo/joao-alcindo.en.html",
+    "href": "people/joao-alcindo/joao-alcindo.en.html",
+    "title": "João Alcindo",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nResearch assistant at the GAIA Lab, applying computer vision and deep learning to satellite imagery for sustainability and environmental monitoring — from self-supervised models for reforestation and deforestation to agriculture with hyperspectral imagery. He holds an MSc in Applied Mathematics and Data Science and a BSc in Data Science and AI, both from FGV EMAp. He is heading to a master’s program in France while remaining involved in the lab’s projects.\n\n\n\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2024–2026\nBSc in Data Science and AI — FGV EMAp, 2020–2023\n\n\n\n\nRemote sensing, Earth observation, and agriculture."
+  },
+  {
+    "objectID": "people/joao-alcindo/joao-alcindo.en.html#education",
+    "href": "people/joao-alcindo/joao-alcindo.en.html#education",
+    "title": "João Alcindo",
+    "section": "",
+    "text": "MSc in Applied Mathematics and Data Science — FGV EMAp, 2024–2026\nBSc in Data Science and AI — FGV EMAp, 2020–2023"
+  },
+  {
+    "objectID": "people/joao-alcindo/joao-alcindo.en.html#interests",
+    "href": "people/joao-alcindo/joao-alcindo.en.html#interests",
+    "title": "João Alcindo",
+    "section": "",
+    "text": "Remote sensing, Earth observation, and agriculture."
+  },
+  {
+    "objectID": "people/livia-meinhardt/livia-meinhardt.en.html",
+    "href": "people/livia-meinhardt/livia-meinhardt.en.html",
+    "title": "Lívia Cereja Meinhardt",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nDeep learning researcher at the GAIA Lab. PhD student at FGV EMAp, where she also earned an MSc in Mathematical Modeling and Data Science and a BSc in Data Science and AI. She previously worked in quantitative credit research at SPX Capital.\n\n\n\nPhD — FGV EMAp (in progress)\nMSc in Mathematical Modeling and Data Science — FGV EMAp, 2024–2025\nBSc in Data Science and AI — FGV EMAp, 2020–2023\n\n\n\n\nMachine learning, deep learning, and statistical modeling."
+  },
+  {
+    "objectID": "people/livia-meinhardt/livia-meinhardt.en.html#education",
+    "href": "people/livia-meinhardt/livia-meinhardt.en.html#education",
+    "title": "Lívia Cereja Meinhardt",
+    "section": "",
+    "text": "PhD — FGV EMAp (in progress)\nMSc in Mathematical Modeling and Data Science — FGV EMAp, 2024–2025\nBSc in Data Science and AI — FGV EMAp, 2020–2023"
+  },
+  {
+    "objectID": "people/livia-meinhardt/livia-meinhardt.en.html#interests",
+    "href": "people/livia-meinhardt/livia-meinhardt.en.html#interests",
+    "title": "Lívia Cereja Meinhardt",
+    "section": "",
+    "text": "Machine learning, deep learning, and statistical modeling."
+  },
+  {
+    "objectID": "people/luiz-luz/luiz-luz.en.html",
+    "href": "people/luiz-luz/luiz-luz.en.html",
+    "title": "Luiz Luz",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nHe was a deep learning researcher at the GAIA Lab, applying computer vision to satellite data for biodiversity monitoring in the Amazon. He holds an MSc in Mathematical Modeling and a BSc in Data Science and AI, both from FGV EMAp. He works as a generative AI engineer at Dharma AI, building LLM agents and fine-tuning models.\n\n\n\nMSc in Mathematical Modeling (ESG applications) — FGV EMAp, 2024–2025\nBSc in Data Science and AI — FGV EMAp, 2020–2023\n\n\n\n\nRemote sensing, computer vision, LLM agents, and data engineering."
+  },
+  {
+    "objectID": "people/luiz-luz/luiz-luz.en.html#education",
+    "href": "people/luiz-luz/luiz-luz.en.html#education",
+    "title": "Luiz Luz",
+    "section": "",
+    "text": "MSc in Mathematical Modeling (ESG applications) — FGV EMAp, 2024–2025\nBSc in Data Science and AI — FGV EMAp, 2020–2023"
+  },
+  {
+    "objectID": "people/luiz-luz/luiz-luz.en.html#interests",
+    "href": "people/luiz-luz/luiz-luz.en.html#interests",
+    "title": "Luiz Luz",
+    "section": "",
+    "text": "Remote sensing, computer vision, LLM agents, and data engineering."
+  },
+  {
+    "objectID": "people/rodrigo-pintucci/rodrigo-pintucci.en.html",
+    "href": "people/rodrigo-pintucci/rodrigo-pintucci.en.html",
+    "title": "Rodrigo Gomes Hutz Pintucci",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nMSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Data Science and AI from the same school, selected for the Talent Selection program for his performance in the OBMEP olympiad. He interned at Lorinvest Gestão de Recursos.\n\n\n\nMSc — FGV EMAp (in progress)\nBSc in Data Science and AI — FGV EMAp, 2021–2024\nTechnical degree in Industrial Automation — ETE FMC, 2018–2020\n\n\n\n\nPython, data visualization, and Power BI."
+  },
+  {
+    "objectID": "people/rodrigo-pintucci/rodrigo-pintucci.en.html#education",
+    "href": "people/rodrigo-pintucci/rodrigo-pintucci.en.html#education",
+    "title": "Rodrigo Gomes Hutz Pintucci",
+    "section": "",
+    "text": "MSc — FGV EMAp (in progress)\nBSc in Data Science and AI — FGV EMAp, 2021–2024\nTechnical degree in Industrial Automation — ETE FMC, 2018–2020"
+  },
+  {
+    "objectID": "people/rodrigo-pintucci/rodrigo-pintucci.en.html#interests",
+    "href": "people/rodrigo-pintucci/rodrigo-pintucci.en.html#interests",
+    "title": "Rodrigo Gomes Hutz Pintucci",
+    "section": "",
+    "text": "Python, data visualization, and Power BI."
+  },
+  {
+    "objectID": "people/thiago-melchiors/thiago-melchiors.en.html",
+    "href": "people/thiago-melchiors/thiago-melchiors.en.html",
+    "title": "Thiago Franke Melchiors",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \nResearch assistant at the GAIA Lab. MSc student in Applied Mathematics and Data Science at FGV EMAp, where he also earned his BSc in Data Science and AI. He works as a data engineer at FGV.\n\n\n\nMSc in Applied Mathematics and Data Science — FGV EMAp, 2026–2027\nBSc in Data Science and AI — FGV EMAp, 2022–2025\n\n\n\n\nMachine learning, LLMs and NLP, computer vision for remote sensing."
+  },
+  {
+    "objectID": "people/thiago-melchiors/thiago-melchiors.en.html#education",
+    "href": "people/thiago-melchiors/thiago-melchiors.en.html#education",
+    "title": "Thiago Franke Melchiors",
+    "section": "",
+    "text": "MSc in Applied Mathematics and Data Science — FGV EMAp, 2026–2027\nBSc in Data Science and AI — FGV EMAp, 2022–2025"
+  },
+  {
+    "objectID": "people/thiago-melchiors/thiago-melchiors.en.html#interests",
+    "href": "people/thiago-melchiors/thiago-melchiors.en.html#interests",
+    "title": "Thiago Franke Melchiors",
+    "section": "",
+    "text": "Machine learning, LLMs and NLP, computer vision for remote sensing."
+  },
+  {
+    "objectID": "publications/deep-clustering-climate/deep-clustering-climate.en.html",
+    "href": "publications/deep-clustering-climate/deep-clustering-climate.en.html",
+    "title": "Deep Clustering for Climate: Analyzing Teleconnections through Learned Categorical States",
+    "section": "",
+    "text": "First page of the paper\n\n\n\n\nAuthors: Lívia Meinhardt, Dário Oliveira\nPublished: April 2026 — arXiv preprint arXiv:2604.22909\nView on arXiv Download PDF"
+  },
+  {
+    "objectID": "publications/deep-clustering-climate/deep-clustering-climate.en.html#abstract",
+    "href": "publications/deep-clustering-climate/deep-clustering-climate.en.html#abstract",
+    "title": "Deep Clustering for Climate: Analyzing Teleconnections through Learned Categorical States",
+    "section": "Abstract",
+    "text": "Abstract\nUnderstanding and representing complex climate variability is essential for both scientific analysis and predictive modeling. However, identifying meaningful climate regimes from raw variables is challenging, as they exhibit high noise and nonlinear dependencies. In this work, we explore the use of Masked Siamese Networks to discretize climate time series into semantically rich clusters. Focusing on daily minimum and maximum temperature, we show that the resulting representations: (i) yield clusters that reflect meaningful climate states under our modeling assumptions, offering a simplified representation for downstream use; (ii) enable sampling and analysis of specific climate scenarios; and (iii) exhibit statistical associations with El Niño events, underscoring their scientific relevance. Our findings highlight the potential of self-supervised discretization as a tool for climate data analysis and open avenues for incorporating richer climate indicators in future work."
+  },
+  {
+    "objectID": "publications/deep-clustering-climate/deep-clustering-climate.en.html#cite-this-publication",
+    "href": "publications/deep-clustering-climate/deep-clustering-climate.en.html#cite-this-publication",
+    "title": "Deep Clustering for Climate: Analyzing Teleconnections through Learned Categorical States",
+    "section": "Cite this publication",
+    "text": "Cite this publication\n@misc{meinhardt2026deepclustering,\n  title         = {Deep Clustering for Climate: Analyzing Teleconnections\n                   through Learned Categorical States},\n  author        = {Meinhardt, L{\\'i}via and Oliveira, D{\\'a}rio},\n  year          = {2026},\n  eprint        = {2604.22909},\n  archivePrefix = {arXiv}\n}\n\n  \n  Back to publications"
+  },
+  {
+    "objectID": "publications/enmap-forest-classification/enmap-forest-classification.en.html",
+    "href": "publications/enmap-forest-classification/enmap-forest-classification.en.html",
+    "title": "Exploring EnMAP hyperspectral images and ensemble deep learning for classifying forest land-cover types in Brazil",
+    "section": "",
+    "text": "Schematic representation of the paper\n\n\n\n\nAuthors: Matheus Pinheiro Ferreira, Matheus Santos Fuza, José M. S. M. Viveiros, Tomás Ferranti, Dário Oliveira, Giulio Brossi Santoro, Paulo Guilherme Molin, Catherine Torres de Almeida, Angélica F. Resende, Danilo R. A. de Almeida, Yelu Zeng, Ricardo Ribeiro Rodrigues, Pedro H. S. Brancalion\nPublished: April 2026 — International Journal of Remote Sensing, vol. 47, no. 7, pp. 3213–3238 (Taylor & Francis)\nView publication"
+  },
+  {
+    "objectID": "publications/enmap-forest-classification/enmap-forest-classification.en.html#abstract",
+    "href": "publications/enmap-forest-classification/enmap-forest-classification.en.html#abstract",
+    "title": "Exploring EnMAP hyperspectral images and ensemble deep learning for classifying forest land-cover types in Brazil",
+    "section": "Abstract",
+    "text": "Abstract\nSpatially explicit information on forest land-cover types is critical for effectively managing and conserving forest ecosystems and monitoring restoration initiatives. This study delves into the potential of the Environmental Mapping and Analysis Program (EnMAP) hyperspectral satellite for distinguishing between tropical forest land-cover types in São Paulo, Brazil. We developed and evaluated a novel ensemble deep learning approach, integrating a 1D Convolutional Neural Network (CNN), an autoencoder, and a Recurrent Neural Network (RNN), for pixel-wise classification. We also assessed the impact of spectral resolution by comparing EnMAP data with simulated Landsat 8 and Sentinel-2A data, and investigated the influence of band selection on classification accuracy. The study focused on mapping forest land-cover types, including conserved remnants, natural regeneration, restoration plantations, and […]"
+  },
+  {
+    "objectID": "publications/enmap-forest-classification/enmap-forest-classification.en.html#cite-this-publication",
+    "href": "publications/enmap-forest-classification/enmap-forest-classification.en.html#cite-this-publication",
+    "title": "Exploring EnMAP hyperspectral images and ensemble deep learning for classifying forest land-cover types in Brazil",
+    "section": "Cite this publication",
+    "text": "Cite this publication\n@article{ferreira2026enmap,\n  title     = {Exploring EnMAP hyperspectral images and ensemble deep learning\n               for classifying forest land-cover types in Brazil},\n  author    = {Pinheiro Ferreira, Matheus and Fuza, Matheus Santos and\n               Viveiros, Jos{\\'e} M. S. M. and Ferranti, Tom{\\'a}s and\n               Oliveira, D{\\'a}rio and Santoro, Giulio Brossi and\n               Molin, Paulo Guilherme and de Almeida, Catherine Torres and\n               Resende, Ang{\\'e}lica F. and de Almeida, Danilo R. A. and\n               Zeng, Yelu and Rodrigues, Ricardo Ribeiro and\n               Brancalion, Pedro H. S.},\n  journal   = {International Journal of Remote Sensing},\n  volume    = {47},\n  number    = {7},\n  pages     = {3213--3238},\n  year      = {2026},\n  publisher = {Taylor \\& Francis}\n}\n\n  \n  Back to publications"
+  },
+  {
+    "objectID": "publications/viscoelastic-udes/viscoelastic-udes.en.html",
+    "href": "publications/viscoelastic-udes/viscoelastic-udes.en.html",
+    "title": "Finding the underlying viscoelastic constitutive equation via universal differential equations and differentiable physics",
+    "section": "",
+    "text": "Schematic representation of the paper\n\n\n\n\nAuthors: Elias C. Rodrigues, Roney L. Thompson, Dário A. B. Oliveira, Roberto F. Ausas\nPublished: November 2025 — Engineering Applications of Artificial Intelligence, vol. 160, 111788 (Pergamon)\nView publication"
+  },
+  {
+    "objectID": "publications/viscoelastic-udes/viscoelastic-udes.en.html#abstract",
+    "href": "publications/viscoelastic-udes/viscoelastic-udes.en.html#abstract",
+    "title": "Finding the underlying viscoelastic constitutive equation via universal differential equations and differentiable physics",
+    "section": "Abstract",
+    "text": "Abstract\nDetermining the appropriate constitutive model to describe the behavior of a given material is a fundamental, yet challenging, aspect of rheology. While data-driven methods present a promising path for refining these models, a more in-depth investigation into the capabilities and limitations of emerging techniques is required. This research addresses this gap by employing Universal Differential Equations (UDEs) and differentiable physics to model viscoelastic fluids, merging conventional differential equations with neural networks to reconstruct missing terms in constitutive models. This study focuses on analyzing four viscoelastic models, Upper Convected Maxwell (UCM), Johnson–Segalman, Giesekus, and Exponential Phan–Thien–Tanner (ePTT) using synthetic datasets. The methodology was tested across different experimental conditions, including oscillatory and startup flows. […]"
+  },
+  {
+    "objectID": "publications/viscoelastic-udes/viscoelastic-udes.en.html#cite-this-publication",
+    "href": "publications/viscoelastic-udes/viscoelastic-udes.en.html#cite-this-publication",
+    "title": "Finding the underlying viscoelastic constitutive equation via universal differential equations and differentiable physics",
+    "section": "Cite this publication",
+    "text": "Cite this publication\n@article{rodrigues2025viscoelastic,\n  title     = {Finding the underlying viscoelastic constitutive equation via\n               universal differential equations and differentiable physics},\n  author    = {Rodrigues, Elias C. and Thompson, Roney L. and\n               Oliveira, D{\\'a}rio A. B. and Ausas, Roberto F.},\n  journal   = {Engineering Applications of Artificial Intelligence},\n  volume    = {160},\n  pages     = {111788},\n  year      = {2025},\n  publisher = {Pergamon}\n}\n\n  \n  Back to publications"
+  }
+]

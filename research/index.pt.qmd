@@ -1,0 +1,98 @@
+---
+title: "Pesquisa"
+# Textos em lorem ipsum até os projetos reais serem cadastrados;
+# as texturas de images/ simulam cenas de satélite para o comparador
+resources:
+  - "images/"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<p class="rsec-lead reveal">Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+<section id="agricultura" class="rsec">
+  <div class="rsec-head reveal">
+    <div class="rsec-num">01</div>
+    <div>
+      <span class="rsec-kicker">Área de pesquisa</span>
+      <h2>Agricultura</h2>
+    </div>
+  </div>
+  <p class="rsec-lead reveal">Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  aliqua ut enim ad minim veniam.</p>
+
+  <div class="hscroll-wrap reveal">
+    <button class="hscroll-btn prev" aria-label="Projetos anteriores"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="hscroll">
+      <article class="hs-card"><div class="hs-kicker">Projeto 01</div><div class="hs-title">Lorem ipsum hiperespectral</div><div class="hs-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 02</div><div class="hs-title">Dolor sit solo e safra</div><div class="hs-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 03</div><div class="hs-title">Amet consectetur pastagens</div><div class="hs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 04</div><div class="hs-title">Tempor incididunt irrigação</div><div class="hs-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 05</div><div class="hs-title">Magna aliqua fenologia</div><div class="hs-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</div></article>
+    </div>
+    <button class="hscroll-btn next" aria-label="Próximos projetos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m9 5 7 7-7 7"/></svg></button>
+  </div>
+</section>
+
+<section id="floresta" class="rsec">
+  <div class="rsec-head reveal">
+    <div class="rsec-num">02</div>
+    <div>
+      <span class="rsec-kicker">Área de pesquisa</span>
+      <h2>Floresta</h2>
+    </div>
+  </div>
+  <p class="rsec-lead reveal">Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit. Arraste o divisor para comparar a mesma cena em dois
+  momentos — sed do eiusmod tempor incididunt.</p>
+
+  <div class="compare reveal">
+    <img class="compare-under" src="images/floresta-antes.svg" alt="Cena simulada de floresta preservada">
+    <img class="compare-over" src="images/floresta-depois.svg" alt="Mesma cena com áreas desmatadas">
+    <div class="compare-handle"></div>
+    <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois">
+    <span class="compare-label left">2019</span>
+    <span class="compare-label right">2025</span>
+  </div>
+  <p class="compare-caption reveal">Simulação ilustrativa — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+  <div class="hscroll-wrap reveal">
+    <button class="hscroll-btn prev" aria-label="Projetos anteriores"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="hscroll">
+      <article class="hs-card"><div class="hs-kicker">Projeto 01</div><div class="hs-title">Lorem ipsum desmatamento</div><div class="hs-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 02</div><div class="hs-title">Dolor sit espécies arbóreas</div><div class="hs-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 03</div><div class="hs-title">Amet consectetur reflorestamento</div><div class="hs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 04</div><div class="hs-title">Tempor incididunt biodiversidade</div><div class="hs-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</div></article>
+    </div>
+    <button class="hscroll-btn next" aria-label="Próximos projetos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m9 5 7 7-7 7"/></svg></button>
+  </div>
+</section>
+
+<section id="clima" class="rsec">
+  <div class="rsec-head reveal">
+    <div class="rsec-num">03</div>
+    <div>
+      <span class="rsec-kicker">Área de pesquisa</span>
+      <h2>Clima</h2>
+    </div>
+  </div>
+  <p class="rsec-lead reveal">Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  aliqua.</p>
+
+  <div class="hscroll-wrap reveal">
+    <button class="hscroll-btn prev" aria-label="Projetos anteriores"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="hscroll">
+      <article class="hs-card"><div class="hs-kicker">Projeto 01</div><div class="hs-title">Lorem ipsum eventos extremos</div><div class="hs-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 02</div><div class="hs-title">Dolor sit séries climáticas</div><div class="hs-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 03</div><div class="hs-title">Amet consectetur emissões</div><div class="hs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div></article>
+      <article class="hs-card"><div class="hs-kicker">Projeto 04</div><div class="hs-title">Tempor incididunt previsão</div><div class="hs-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</div></article>
+    </div>
+    <button class="hscroll-btn next" aria-label="Próximos projetos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m9 5 7 7-7 7"/></svg></button>
+  </div>
+</section>
+```

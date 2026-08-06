@@ -1,0 +1,95 @@
+---
+title: "Conheça a Equipe"
+# Cada listagem filtra as páginas .pt.qmd dos membros por people_group,
+# em ordem alfabética de nome. Grupos sem integrantes no momento (pós-doc,
+# doutorado) ficam comentados aqui e nas seções abaixo, prontos para ativar.
+listing:
+  - id: professor
+    contents:
+      - "*/*.pt.qmd"
+    include:
+      people_group: "professor"
+    template: ../_ejs/people-card.ejs
+    sort: title
+    type: grid
+    fields: [title, subtitle, image, education]
+  # - id: postdoc
+  #   contents:
+  #     - "*/*.pt.qmd"
+  #   include:
+  #     people_group: "postdoc"
+  #   template: ../_ejs/people-card.ejs
+  #   sort: title
+  #   type: grid
+  #   fields: [title, subtitle, image, education]
+  - id: phd
+    contents:
+      - "*/*.pt.qmd"
+    include:
+      people_group: "phd"
+    template: ../_ejs/people-card.ejs
+    sort: title
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: masters
+    contents:
+      - "*/*.pt.qmd"
+    include:
+      people_group: "masters"
+    template: ../_ejs/people-card.ejs
+    sort: title
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: undergrad
+    contents:
+      - "*/*.pt.qmd"
+    include:
+      people_group: "undergrad"
+    template: ../_ejs/people-card.ejs
+    sort: title
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: alumni
+    contents:
+      - "*/*.pt.qmd"
+    include:
+      people_group: "alumni"
+    template: ../_ejs/people-card.ejs
+    sort: title
+    type: grid
+    fields: [title, subtitle, image, education]
+page-layout: full
+toc: false
+---
+
+## Professor
+
+::: {#professor}
+:::
+
+<!--
+## Pós-Doutorado
+
+::: {#postdoc}
+:::
+-->
+
+## Doutorado
+
+::: {#phd}
+:::
+
+## Mestrado
+
+::: {#masters}
+:::
+
+## Graduação
+
+::: {#undergrad}
+:::
+
+## Alumni
+
+::: {#alumni}
+:::

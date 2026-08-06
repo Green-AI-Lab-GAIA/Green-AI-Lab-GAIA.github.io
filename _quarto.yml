@@ -1,36 +1,43 @@
+# Configuração comum aos dois idiomas.
+# As opções específicas de cada idioma ficam nos perfis:
+#   _quarto-pt.yml -> português, publicado na raiz (docs/)
+#   _quarto-en.yml -> inglês, publicado em docs/en/
 project:
   type: website
-  output-dir: docs
+  # Remove o sufixo de idioma dos arquivos gerados (index.pt.html -> index.html)
+  post-render: scripts/flatten_lang.py
+
+# Sem --profile, "quarto render" e "quarto preview" usam o português
+profile:
+  default: pt
+
+# Título fixo da aba do navegador, igual em todas as páginas
+pagetitle: "GAIA Lab"
+
 website:
+  title: "GAIA Lab"
   navbar:
     background: "#365902"
-    search: true
-    left:
-      - text: "Home"
-        href: index.qmd
-
-      - text: "People"
-        href: people/index.qmd
-
-      # - text: "Research"
-      #   href: research/index.qmd
-
-      # - text: "Publications"
-      #   href: publications/index.qmd
-
-      # - text: "Courses"
-      #   href: courses/index.qmd
-
-      # - text: "About Us"
-      #   href: about/index.qmd
-    
+    # Busca desativada até o site ter volume de conteúdo que a justifique
+    search: false
 
 format:
   html:
-    theme: cosmo
+    # Tema claro e escuro; o Quarto adiciona o botão de alternância na navbar.
+    # O escuro usa a mesma base cosmo com uma camada apenas de cores, para a
+    # troca de modo nunca alterar tamanhos ou layout
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
     linkcolor: "#365902"
     css: styles.css
     toc: true
-
-
-
+    # Favicon com versão para tema claro e escuro do navegador
+    include-in-header: _includes/favicon.html
+    # Scripts de comportamento: troca de idioma por página, links externos em
+    # nova aba, cópia de e-mail e efeitos de rolagem (reveal, carrossel,
+    # contadores e comparador de imagens)
+    include-after-body:
+      - _includes/language-switch.html
+      - _includes/link-behavior.html
+      - _includes/scroll-effects.html

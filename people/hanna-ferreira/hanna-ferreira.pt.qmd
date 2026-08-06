@@ -1,0 +1,49 @@
+---
+title: "Hanna Ferreira"
+last: "Ferreira"
+first: "Hanna"
+people_group: "masters"
+subtitle: "Assistente de Pesquisa"
+education: "Mestranda em Matemática Aplicada e Ciência de Dados, FGV EMAp"
+image: avatar.svg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.svg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/hanna-rodrigues"
+    - icon: envelope
+      text: Email
+      href: "mailto:hanna.rodrigues.ismart@gmail.com"
+---
+
+::: {#perfil}
+
+Assistente de pesquisa no GAIA Lab, aplicando modelos de deep learning a imagens de satélite e desafios ambientais. Mestranda em Matemática Aplicada e Ciência de Dados na FGV EMAp, com dupla graduação em Matemática Aplicada e em Ciência de Dados e IA. Também pesquisa visão computacional no CBPF.
+
+## Formação
+
+- Mestrado em Matemática Aplicada e Ciência de Dados — FGV EMAp, 2025–2027
+- Graduação em Ciência de Dados e IA — FGV EMAp, 2021–2024
+- Graduação em Matemática Aplicada — FGV EMAp, 2019–2023
+
+## Interesses
+
+Deep learning, visão computacional e LiDAR.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```

@@ -1,0 +1,56 @@
+---
+title: "GAIA Lab"
+# A logo é servida localmente (icon/) para carregar junto com o resto da página
+resources:
+  - "icon/"
+page-layout: custom
+body-classes: "home"
+toc: false
+---
+
+```{=html}
+<div class="home-hero">
+  <div class="hero-lockup">
+    <img class="logo" src="icon/icon.png" alt="GAIA Lab logo">
+    <span class="hero-name">GAIA Lab</span>
+  </div>
+  <p class="hero-tagline">
+    Machine learning and deep learning applied to climate and Earth
+    monitoring — since 2023.
+  </p>
+  <a class="hero-cta" href="/about/">Learn more about us</a>
+  <a class="hero-scroll" href="#home-areas" aria-label="Scroll to research areas">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <path d="m5 9 7 7 7-7"/>
+    </svg>
+  </a>
+</div>
+
+<div id="home-areas" class="home-areas">
+  <a class="area-card reveal" href="/research/#agriculture">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round">
+      <path d="M4 20C4 11 11 4 20 4c0 9-7 16-16 16Z"/>
+      <path d="M4 20C9 15 13 11 17 7"/>
+    </svg>
+    <div class="area-title">Agriculture</div>
+    <div class="area-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</div>
+  </a>
+  <a class="area-card reveal" href="/research/#forests">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2 6 10h3l-4 7h14l-4-7h3L12 2Z"/>
+      <path d="M12 17v5"/>
+    </svg>
+    <div class="area-title">Forests</div>
+    <div class="area-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</div>
+  </a>
+  <a class="area-card reveal" href="/research/#climate">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="8" cy="8" r="3.5"/>
+      <path d="M8 1.5v2M8 12.5v2M1.5 8h2M12.5 8h2M3.4 3.4l1.4 1.4M11.2 11.2l1.4 1.4M12.6 3.4l-1.4 1.4"/>
+      <path d="M13 17.5a4 4 0 0 1 7.6-1.2A3 3 0 0 1 20 22h-6a3 3 0 0 1-1-4.5Z"/>
+    </svg>
+    <div class="area-title">Climate</div>
+    <div class="area-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</div>
+  </a>
+</div>
+```

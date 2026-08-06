@@ -1,16 +1,34 @@
 [
   {
-    "listing": "/people/index.html",
+    "listing": "/publications/index.pt.html",
     "items": [
-      "/people/dario-oliveira/dario-oliveira.html",
-      "/people/elias-rodrigues/elias-rodrigues.html",
-      "/people/joao-alcindo/joao-alcindo.html",
-      "/people/danilo-cardoso/danilo-cardoso.html",
-      "/people/juliana-carvalho/juliana-carvalho.html",
-      "/people/sillas-costa/sillas-costa.html",
-      "/people/raul-lomonte/raul-lomonte.html",
-      "/people/luiz-luz/luiz-luz.html",
-      "/people/livia-meinhardt/livia-meinhardt.html"
+      "/publications/deep-clustering-climate/deep-clustering-climate.pt.html",
+      "/publications/enmap-forest-classification/enmap-forest-classification.pt.html",
+      "/publications/viscoelastic-udes/viscoelastic-udes.pt.html",
+      "/publications/diversidade-floristica-drone/diversidade-floristica-drone.pt.html"
+    ]
+  },
+  {
+    "listing": "/people/index.pt.html",
+    "items": [
+      "/people/dario-oliveira/dario-oliveira.pt.html",
+      "/people/danilo-cardoso/danilo-cardoso.pt.html",
+      "/people/erick-brito/erick-brito.pt.html",
+      "/people/livia-meinhardt/livia-meinhardt.pt.html",
+      "/people/tomas-ferranti/tomas-ferranti.pt.html",
+      "/people/gabriel-jacinto/gabriel-jacinto.pt.html",
+      "/people/gustavo-danon/gustavo-danon.pt.html",
+      "/people/hanna-ferreira/hanna-ferreira.pt.html",
+      "/people/heitor-trielli/heitor-trielli.pt.html",
+      "/people/joao-alcindo/joao-alcindo.pt.html",
+      "/people/lucas-westfal/lucas-westfal.pt.html",
+      "/people/raul-lomonte/raul-lomonte.pt.html",
+      "/people/rodrigo-pintucci/rodrigo-pintucci.pt.html",
+      "/people/thiago-melchiors/thiago-melchiors.pt.html",
+      "/people/sillas-costa/sillas-costa.pt.html",
+      "/people/elias-rodrigues/elias-rodrigues.pt.html",
+      "/people/juliana-carvalho/juliana-carvalho.pt.html",
+      "/people/luiz-luz/luiz-luz.pt.html"
     ]
   }
 ]

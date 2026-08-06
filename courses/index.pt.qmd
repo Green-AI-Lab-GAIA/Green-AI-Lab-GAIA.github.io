@@ -1,0 +1,47 @@
+---
+title: "Cursos"
+# Disciplinas ministradas por integrantes do laboratório na FGV EMAp.
+# As ilustrações em courses/images/ podem ser trocadas por fotos reais.
+resources:
+  - "images/"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="course-list">
+
+  <div class="course-card">
+    <img class="course-image" src="images/redes-neurais.svg"
+         alt="Ilustração de uma rede neural com camadas de nós conectados">
+    <div class="course-info">
+      <span class="course-level">Pós-Graduação — EMAp</span>
+      <div class="course-title">Redes Neurais e Aprendizado Profundo</div>
+      <ul class="course-details">
+        <li><strong>Professor:</strong> Dário Oliveira</li>
+        <li><strong>Carga horária:</strong> 60h</li>
+        <li><strong>Aulas:</strong> presenciais, segundas e terças, das 14h20 às 16h (horário de Brasília)</li>
+        <li><strong>Oferta:</strong> todo segundo semestre</li>
+      </ul>
+      <a class="pub-btn" href="https://emap.fgv.br/curso/doutorado#aba-disciplinas">Página do programa</a>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <img class="course-image" src="images/aprendizado-profundo.svg"
+         alt="Ilustração de blocos de camadas de um modelo profundo">
+    <div class="course-info">
+      <span class="course-level">Graduação — Ciência de Dados e IA, EMAp</span>
+      <div class="course-title">Aprendizado Profundo</div>
+      <ul class="course-details">
+        <li><strong>Professor:</strong> Dário Oliveira</li>
+        <li><strong>Carga horária:</strong> 60h</li>
+        <li><strong>Aulas:</strong> presenciais, terças e quintas, das 9h20 às 11h (horário de Brasília)</li>
+        <li><strong>Oferta:</strong> todo segundo semestre</li>
+      </ul>
+      <a class="pub-btn" href="https://emap.fgv.br/curso/ciencia-de-dados-e-inteligencia-artificial#aba-grade-curricular">Página do curso</a>
+    </div>
+  </div>
+
+</div>
+```

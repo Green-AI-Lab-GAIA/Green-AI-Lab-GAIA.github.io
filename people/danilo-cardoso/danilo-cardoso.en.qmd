@@ -1,0 +1,47 @@
+---
+title: "Danilo Lemos Cardoso"
+last: "Cardoso"
+first: "Danilo"
+people_group: "phd"
+subtitle: "Researcher"
+education: "PhD Student, FGV EMAp"
+image: avatar.jpeg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/lcdanilo"
+---
+
+::: {#perfil}
+
+Researcher at the GAIA Lab. PhD student at FGV EMAp, where he also earned an MSc in Mathematical Modeling and a BSc in Applied Mathematics, along with a technical degree in electronics from COLTEC/UFMG.
+
+## Education
+
+- PhD — FGV EMAp (in progress)
+- MSc in Mathematical Modeling — FGV EMAp, 2023–2025
+- BSc in Applied Mathematics — FGV EMAp, 2019–2022
+- Technical degree in Electronics — COLTEC/UFMG, 2015–2018
+
+## Interests
+
+Programming, Linux, and problem solving.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Back to the team</span>
+</a>
+```

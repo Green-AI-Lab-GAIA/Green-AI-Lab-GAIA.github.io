@@ -1,0 +1,6 @@
+```{=html}
+<figure class="gallery-item"><img src="images/galeria/foto-oficial.jpg" alt="foto oficial" loading="lazy"></figure>
+<figure class="gallery-item"><img src="images/galeria/hexa.jpeg" alt="hexa" loading="lazy"></figure>
+<figure class="gallery-item"><img src="images/galeria/luiz-no-rio1.jpeg" alt="luiz no rio1" loading="lazy"></figure>
+<figure class="gallery-item"><img src="images/galeria/luiz-no-rio2.jpeg" alt="luiz no rio2" loading="lazy"></figure>
+```

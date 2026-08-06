@@ -1,0 +1,35 @@
+---
+# Modelo para novo membro (versão em inglês).
+# Deve existir junto com o .pt.qmd correspondente, na mesma pasta.
+title: "Nome Completo"
+last: "Sobrenome"
+first: "Nome"
+people_group: "professor | postdoc | phd | masters | undergrad | alumni"
+subtitle: "Role at GAIA Lab (e.g., Research Assistant)"
+education: "Card line (e.g., MSc Student in X, FGV EMAp)"
+image: avatar.jpg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto
+about:
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/nome"
+    - icon: envelope
+      text: Email
+      href: "mailto:nome@exemplo.com"
+---
+
+Direct bio in 2–4 sentences: earned a degree in..., researches..., works as...
+
+## Education
+
+- Degree in Program — Institution, years
+
+## Interests
+
+Comma-separated areas of interest.

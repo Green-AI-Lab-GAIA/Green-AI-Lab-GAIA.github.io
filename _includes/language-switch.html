@@ -1,0 +1,25 @@
+<script>
+  // Faz o link PT/EN da navbar apontar para a versão da página atual no outro
+  // idioma. O site em inglês é publicado sob /en/, espelhando a raiz, então a
+  // troca é apenas inserir ou remover esse prefixo no caminho.
+  document.addEventListener("DOMContentLoaded", function () {
+    var isEnglish = document.documentElement.lang.indexOf("en") === 0;
+    var path = window.location.pathname;
+    var target = isEnglish
+      ? path.replace(/^\/en(\/|$)/, "/")
+      : "/en" + path;
+
+    // O botão exibe a sigla do idioma atual e o clique leva ao outro idioma
+    var label = isEnglish ? "EN" : "PT";
+    var links = document.querySelectorAll(".navbar a.nav-link");
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].textContent.trim() === label) {
+        links[i].href = target;
+        links[i].title = isEnglish ? "Ler em português" : "Read in English";
+        // A classe permite estilizar o botão de idioma no styles.css
+        links[i].classList.add("lang-switch");
+        break;
+      }
+    }
+  });
+</script>

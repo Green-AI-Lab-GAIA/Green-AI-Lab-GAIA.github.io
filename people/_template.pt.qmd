@@ -1,0 +1,36 @@
+---
+# Modelo para novo membro (versão em português).
+# Crie people/nome-sobrenome/ com a foto (ou copie images/avatar-default.svg
+# como avatar.svg) e os arquivos nome-sobrenome.pt.qmd e nome-sobrenome.en.qmd.
+title: "Nome Completo"
+last: "Sobrenome"
+first: "Nome"
+people_group: "professor | postdoc | phd | masters | undergrad | alumni"
+subtitle: "Cargo no GAIA Lab (ex.: Assistente de Pesquisa)"
+education: "Formação para o card (ex.: Mestrando em X, FGV EMAp)"
+image: avatar.jpg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto
+about:
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/nome"
+    - icon: envelope
+      text: Email
+      href: "mailto:nome@exemplo.com"
+---
+
+Biografia direta em 2 a 4 frases: graduou-se em..., pesquisa..., atua como...
+
+## Formação
+
+- Grau em Curso — Instituição, anos
+
+## Interesses
+
+Áreas de interesse separadas por vírgula.

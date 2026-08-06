@@ -1,0 +1,16 @@
+```{=html}
+<div class="news-list">
+  <% for (const item of items) { %>
+    <a class="news-card" href="<%- item.path %>">
+      <% if (item.image) { %>
+        <img class="news-image" src="<%= item.image %>" alt="" loading="lazy">
+      <% } %>
+      <div class="news-body">
+        <div class="news-source"><%= item['news-source'] %> &middot; <%= item['news-date'] %></div>
+        <div class="news-title"><%= item.title %></div>
+        <div class="news-summary"><%= item.summary %></div>
+      </div>
+    </a>
+  <% } %>
+</div>
+```

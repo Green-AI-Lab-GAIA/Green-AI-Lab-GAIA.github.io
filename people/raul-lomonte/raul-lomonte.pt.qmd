@@ -1,0 +1,49 @@
+---
+title: "Raul Lomonte Figueiredo"
+last: "Lomonte"
+first: "Raul"
+people_group: "masters"
+subtitle: "Pesquisador de Deep Learning"
+education: "Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp"
+image: avatar.jpeg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/raullomontefigueiredo"
+    - icon: envelope
+      text: Email
+      href: "mailto:raullomonte13@gmail.com"
+---
+
+::: {#perfil}
+
+Pesquisador de deep learning no GAIA Lab desde 2023, com foco em sensoriamento remoto aplicado ao agronegócio. Mestrando em Matemática Aplicada e Ciência de Dados na FGV EMAp, graduado em Ciência de Dados e IA pela mesma escola. Atua como engenheiro de visão computacional na Audsat; foi cientista de dados pesquisador no IRB(Re).
+
+## Formação
+
+- Mestrado em Matemática Aplicada e Ciência de Dados — FGV EMAp, 2025–2026
+- Graduação em Ciência de Dados e IA — FGV EMAp, 2021–2024
+- Técnico em Informática — IFSULDEMINAS, 2018–2020
+
+## Interesses
+
+Inteligência artificial, sensoriamento remoto e agronegócio.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```

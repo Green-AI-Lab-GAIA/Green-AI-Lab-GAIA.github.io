@@ -1,0 +1,34 @@
+[
+  {
+    "listing": "/publications/index.en.html",
+    "items": [
+      "/publications/deep-clustering-climate/deep-clustering-climate.en.html",
+      "/publications/enmap-forest-classification/enmap-forest-classification.en.html",
+      "/publications/viscoelastic-udes/viscoelastic-udes.en.html",
+      "/publications/diversidade-floristica-drone/diversidade-floristica-drone.en.html"
+    ]
+  },
+  {
+    "listing": "/people/index.en.html",
+    "items": [
+      "/people/dario-oliveira/dario-oliveira.en.html",
+      "/people/danilo-cardoso/danilo-cardoso.en.html",
+      "/people/erick-brito/erick-brito.en.html",
+      "/people/livia-meinhardt/livia-meinhardt.en.html",
+      "/people/tomas-ferranti/tomas-ferranti.en.html",
+      "/people/gabriel-jacinto/gabriel-jacinto.en.html",
+      "/people/gustavo-danon/gustavo-danon.en.html",
+      "/people/hanna-ferreira/hanna-ferreira.en.html",
+      "/people/heitor-trielli/heitor-trielli.en.html",
+      "/people/joao-alcindo/joao-alcindo.en.html",
+      "/people/lucas-westfal/lucas-westfal.en.html",
+      "/people/raul-lomonte/raul-lomonte.en.html",
+      "/people/rodrigo-pintucci/rodrigo-pintucci.en.html",
+      "/people/thiago-melchiors/thiago-melchiors.en.html",
+      "/people/sillas-costa/sillas-costa.en.html",
+      "/people/elias-rodrigues/elias-rodrigues.en.html",
+      "/people/juliana-carvalho/juliana-carvalho.en.html",
+      "/people/luiz-luz/luiz-luz.en.html"
+    ]
+  }
+]

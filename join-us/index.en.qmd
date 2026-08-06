@@ -1,0 +1,63 @@
+---
+title: "Join Us"
+toc: false
+---
+
+The GAIA Lab is always open to students and researchers interested in
+artificial intelligence applied to remote sensing, climate, forests, and
+agriculture. Fill in the form below: it assembles an introduction email to the
+lab coordinator — review it and send it from your own email.
+
+```{=html}
+<form id="join-form" class="join-form">
+  <label for="join-nome">Name</label>
+  <input id="join-nome" type="text" required>
+
+  <label for="join-email">Your email</label>
+  <input id="join-email" type="email" required>
+
+  <label for="join-nivel">Intended level</label>
+  <select id="join-nivel">
+    <option>Undergraduate research</option>
+    <option>Master's</option>
+    <option>PhD</option>
+    <option>Postdoc</option>
+    <option>Other</option>
+  </select>
+
+  <label for="join-msg">Message</label>
+  <textarea id="join-msg" rows="6" required
+            placeholder="Briefly describe your background and research interests"></textarea>
+
+  <button type="submit" class="join-submit">Prepare email</button>
+</form>
+
+<p class="join-alt">Or write directly to
+<a href="mailto:dario.oliveira@fgv.br">dario.oliveira@fgv.br</a>
+(click to copy the address).</p>
+
+<a class="back-link" href="/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Back to home</span>
+</a>
+
+<script>
+  // Monta um e-mail pré-preenchido com os dados do formulário e abre o
+  // cliente de e-mail do visitante; o envio em si fica com o visitante.
+  document.getElementById("join-form").addEventListener("submit", function (evento) {
+    evento.preventDefault();
+    var nome = document.getElementById("join-nome").value.trim();
+    var email = document.getElementById("join-email").value.trim();
+    var nivel = document.getElementById("join-nivel").value;
+    var mensagem = document.getElementById("join-msg").value.trim();
+
+    var assunto = "Interest in joining the GAIA Lab — " + nome;
+    var corpo = "Name: " + nome + "\nEmail: " + email +
+                "\nIntended level: " + nivel + "\n\n" + mensagem;
+
+    window.location.href = "mailto:dario.oliveira@fgv.br" +
+      "?subject=" + encodeURIComponent(assunto) +
+      "&body=" + encodeURIComponent(corpo);
+  });
+</script>
+```

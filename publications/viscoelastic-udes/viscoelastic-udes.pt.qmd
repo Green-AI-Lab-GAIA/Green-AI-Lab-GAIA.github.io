@@ -1,0 +1,64 @@
+---
+title: "Finding the underlying viscoelastic constitutive equation via universal differential equations and differentiable physics"
+paper-authors: "Elias C. Rodrigues, Roney L. Thompson, Dário A. B. Oliveira, Roberto F. Ausas"
+pub-date: "Novembro de 2025"
+venue: "Engineering Applications of Artificial Intelligence"
+date: 2025-11-15
+image: thumbnail.svg
+snippet: "Equações diferenciais universais e física diferenciável reconstroem termos ausentes em modelos constitutivos de fluidos viscoelásticos."
+toc: false
+---
+
+:::: {.pub-detail}
+
+::: {.pub-detail-thumb}
+[![Representação esquemática do artigo](thumbnail.svg)](https://scholar.google.com.br/citations?view_op=view_citation&hl=pt-BR&user=Nswjaf0AAAAJ&citation_for_view=Nswjaf0AAAAJ:vbGhcppDl1QC)
+:::
+
+::: {.pub-detail-meta}
+**Autores:** Elias C. Rodrigues, Roney L. Thompson, Dário A. B. Oliveira, Roberto F. Ausas
+
+**Publicação:** Novembro de 2025 — Engineering Applications of Artificial Intelligence, v. 160, 111788 (Pergamon)
+
+[Ver publicação](https://scholar.google.com.br/citations?view_op=view_citation&hl=pt-BR&user=Nswjaf0AAAAJ&citation_for_view=Nswjaf0AAAAJ:vbGhcppDl1QC){.pub-btn}
+:::
+
+::::
+
+## Resumo
+
+Determining the appropriate constitutive model to describe the behavior of a
+given material is a fundamental, yet challenging, aspect of rheology. While
+data-driven methods present a promising path for refining these models, a more
+in-depth investigation into the capabilities and limitations of emerging
+techniques is required. This research addresses this gap by employing
+Universal Differential Equations (UDEs) and differentiable physics to model
+viscoelastic fluids, merging conventional differential equations with neural
+networks to reconstruct missing terms in constitutive models. This study
+focuses on analyzing four viscoelastic models, Upper Convected Maxwell (UCM),
+Johnson–Segalman, Giesekus, and Exponential Phan–Thien–Tanner (ePTT) using
+synthetic datasets. The methodology was tested across different experimental
+conditions, including oscillatory and startup flows. […]
+
+## Como citar
+
+```bibtex
+@article{rodrigues2025viscoelastic,
+  title     = {Finding the underlying viscoelastic constitutive equation via
+               universal differential equations and differentiable physics},
+  author    = {Rodrigues, Elias C. and Thompson, Roney L. and
+               Oliveira, D{\'a}rio A. B. and Ausas, Roberto F.},
+  journal   = {Engineering Applications of Artificial Intelligence},
+  volume    = {160},
+  pages     = {111788},
+  year      = {2025},
+  publisher = {Pergamon}
+}
+```
+
+```{=html}
+<a class="back-link" href="/publications/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para as publicações</span>
+</a>
+```
