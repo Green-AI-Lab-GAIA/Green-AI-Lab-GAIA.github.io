@@ -1,0 +1,47 @@
+---
+title: "Danilo Lemos Cardoso"
+last: "Cardoso"
+first: "Danilo"
+people_group: "phd"
+subtitle: "Pesquisador"
+education: "Doutorando, FGV EMAp"
+image: avatar.jpeg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/lcdanilo"
+---
+
+::: {#perfil}
+
+Pesquisador do GAIA Lab. Doutorando na FGV EMAp, mestre em Modelagem Matemática e graduado em Matemática Aplicada pela mesma escola, com formação técnica em eletrônica pelo COLTEC/UFMG.
+
+## Formação
+
+- Doutorado — FGV EMAp (em andamento)
+- Mestrado em Modelagem Matemática — FGV EMAp, 2023–2025
+- Graduação em Matemática Aplicada — FGV EMAp, 2019–2022
+- Técnico em Eletrônica — COLTEC/UFMG, 2015–2018
+
+## Interesses
+
+Programação, Linux e solução de problemas.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```

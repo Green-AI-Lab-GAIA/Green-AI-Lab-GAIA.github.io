@@ -1,0 +1,66 @@
+<script>
+  // Comportamento dos links do site:
+  // - links externos abrem em nova aba, para nunca sair do site do GAIA Lab;
+  // - links de e-mail copiam o endereço para a área de transferência e mostram
+  //   um aviso, em vez de abrir o cliente de e-mail.
+  document.addEventListener("DOMContentLoaded", function () {
+    var isEnglish = document.documentElement.lang.indexOf("en") === 0;
+
+    var externos = document.querySelectorAll('a[href^="http"]');
+    for (var i = 0; i < externos.length; i++) {
+      if (externos[i].hostname !== window.location.hostname) {
+        externos[i].target = "_blank";
+        externos[i].rel = "noopener";
+      }
+    }
+
+    var aviso = document.createElement("div");
+    aviso.className = "copy-toast";
+    aviso.textContent = isEnglish
+      ? "Email copied to clipboard"
+      : "E-mail copiado para a área de transferência";
+    document.body.appendChild(aviso);
+    var avisoTimer = null;
+
+    function mostrarAviso() {
+      aviso.classList.add("show");
+      clearTimeout(avisoTimer);
+      avisoTimer = setTimeout(function () {
+        aviso.classList.remove("show");
+      }, 2200);
+    }
+
+    function copiar(texto) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(texto).then(mostrarAviso, function () {
+          copiarLegado(texto);
+        });
+      } else {
+        copiarLegado(texto);
+      }
+    }
+
+    // Fallback para navegadores sem a API de clipboard
+    function copiarLegado(texto) {
+      var area = document.createElement("textarea");
+      area.value = texto;
+      area.style.position = "fixed";
+      area.style.opacity = "0";
+      document.body.appendChild(area);
+      area.select();
+      try {
+        document.execCommand("copy");
+        mostrarAviso();
+      } catch (e) { /* sem clipboard disponível; não faz nada */ }
+      document.body.removeChild(area);
+    }
+
+    var emails = document.querySelectorAll('a[href^="mailto:"]');
+    for (var j = 0; j < emails.length; j++) {
+      emails[j].addEventListener("click", function (evento) {
+        evento.preventDefault();
+        copiar(this.getAttribute("href").replace(/^mailto:/, ""));
+      });
+    }
+  });
+</script>

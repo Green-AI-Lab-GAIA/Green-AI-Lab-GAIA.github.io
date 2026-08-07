@@ -1,0 +1,46 @@
+---
+title: "Lucas Westfal"
+last: "Westfal"
+first: "Lucas"
+people_group: "masters"
+subtitle: "Pesquisador"
+education: "Mestrando, FGV EMAp"
+image: avatar.svg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.svg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/lucas-westfal-001aab1b1"
+---
+
+::: {#perfil}
+
+Mestrando na FGV EMAp e pesquisador do GAIA Lab. Bacharel em Matemática Aplicada pela mesma escola, com formação técnica em mecatrônica pelo IFSC. Pesquisa saúde pervasiva, Internet das Coisas, visão computacional e informática médica.
+
+## Formação
+
+- Mestrado — FGV EMAp (em andamento)
+- Graduação em Matemática Aplicada — FGV EMAp, 2021–2024
+- Técnico em Mecatrônica — IFSC, 2018–2020
+
+## Interesses
+
+Saúde pervasiva, IoT, visão computacional e informática médica.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```

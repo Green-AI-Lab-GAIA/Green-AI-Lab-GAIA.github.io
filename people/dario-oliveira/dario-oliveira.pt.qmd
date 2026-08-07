@@ -1,0 +1,49 @@
+---
+title: "Dario Oliveira"
+last: "Oliveira"
+first: "Dario"
+people_group: "professor"
+subtitle: "Professor e Coordenador do GAIA Lab"
+education: "Doutor em Engenharia Elétrica, PUC-Rio"
+image: avatar.jpg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/dario-ab-oliveira"
+    - icon: envelope
+      text: Email
+      href: "mailto:dario.oliveira@fgv.br"
+---
+
+::: {#perfil}
+
+Professor da Escola de Matemática Aplicada da FGV (EMAp) e coordenador do GAIA Lab. Foi pesquisador sênior do IBM Research, cientista de pesquisa na GE Global Research e professor visitante na Universidade Técnica de Munique (TUM). Pesquisa IA espaço-temporal aplicada a sensoriamento remoto, sustentabilidade, clima, florestas e agricultura digital.
+
+## Formação
+
+- Doutorado em Engenharia Elétrica (análise de imagens e visão computacional) — PUC-Rio, 2013
+- Mestrado em Engenharia Elétrica — PUC-Rio, 2009
+- Graduação em Engenharia Elétrica — UERJ, 2007
+
+## Interesses
+
+IA espaço-temporal, sensoriamento remoto, sustentabilidade, clima, florestas e agricultura digital.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```

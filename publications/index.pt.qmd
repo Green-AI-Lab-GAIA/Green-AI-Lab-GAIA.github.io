@@ -1,0 +1,111 @@
+---
+title: "Publicações"
+# Artigos: cada um é uma pasta com a página .pt/.en e a miniatura do PDF.
+# Notícias: itens declarados direto na listagem abaixo (link externo).
+# As duas listagens ordenam da mais recente para a mais antiga.
+listing:
+  - id: papers
+    contents:
+      - "*/*.pt.qmd"
+    template: ../_ejs/publication-card.ejs
+    sort: "date desc"
+    fields: [title, image, date, paper-authors, pub-date, venue, snippet]
+  - id: news
+    contents:
+      - title: "Pesquisa usa IA para prever a qualidade da carne a partir de fotos de celular"
+        path: "https://portal.fgv.br/en/noticias/research-uses-ai-based-system-predict-meat-quality-cellphone-photos"
+        date: 2025-07-16
+        news-source: "FGV (em inglês)"
+        news-date: "16 de julho de 2025"
+        image: "images/news-carne.png"
+        summary: "Sistema treinado com fotos de cortes bovinos e suínos prevê maciez e gordura intramuscular, abrindo caminho para aplicativos que ajudem o consumidor a identificar cortes mais macios e suculentos."
+      - title: "Estudo monitora desmatamento e identifica espécies vegetais com uso de inteligência artificial"
+        path: "https://portal.fgv.br/noticias/estudo-monitora-desmatamento-e-identifica-especies-vegetais-com-uso-de-inteligencia"
+        date: 2025-03-20
+        news-source: "FGV"
+        news-date: "20 de março de 2025"
+        image: "images/news-desmatamento.jpg"
+        summary: "O método LLP-Co aprende padrões visuais e agrupa grandes volumes de dados automaticamente, aplicado à identificação de áreas desmatadas e da biodiversidade vegetal da Floresta Amazônica."
+      - title: "Pesquisadores criam algoritmo que realiza classificação agrícola por meio de imagens de satélite"
+        path: "https://portal.fgv.br/noticias/pesquisadores-criam-algoritmo-realiza-classificacao-agricola-meio-imagens-satelite"
+        date: 2024-10-08
+        news-source: "FGV"
+        news-date: "8 de outubro de 2024"
+        image: "images/news-agricultura.jpg"
+        summary: "Estudo da FGV EMAp utiliza, pela primeira vez, uma abordagem com proporções globais para classificar culturas agrícolas por agrupamento auto-supervisionado."
+    template: ../_ejs/news-card.ejs
+    sort: "date desc"
+resources:
+  - "images/"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="pub-search">
+  <input type="search" id="pub-search-input" class="pub-search-input"
+         placeholder="Pesquisar artigos e notícias..." aria-label="Pesquisar publicações">
+  <button type="button" id="pub-search-btn" class="pub-search-btn" aria-label="Pesquisar">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+         stroke-width="2.4" stroke-linecap="round">
+      <circle cx="10.5" cy="10.5" r="6.5"/>
+      <path d="m15.5 15.5 5.5 5.5"/>
+    </svg>
+  </button>
+</div>
+<div id="pub-search-empty" class="pub-search-empty" hidden>Nenhum resultado para a pesquisa.</div>
+
+<script>
+  // Filtra artigos e notícias pelo termo pesquisado (Enter ou clique na lupa);
+  // a comparação ignora maiúsculas e acentos. Limpar o campo restaura tudo.
+  document.addEventListener("DOMContentLoaded", function () {
+    var campo = document.getElementById("pub-search-input");
+    var botao = document.getElementById("pub-search-btn");
+    var vazio = document.getElementById("pub-search-empty");
+
+    function normalizar(texto) {
+      return texto.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    }
+
+    function pesquisar() {
+      var termo = normalizar(campo.value.trim());
+      var cartoes = document.querySelectorAll(".pub-card-link, .news-card");
+      var visiveis = 0;
+      for (var i = 0; i < cartoes.length; i++) {
+        var mostrar = !termo || normalizar(cartoes[i].textContent).indexOf(termo) !== -1;
+        cartoes[i].classList.toggle("filtered-out", !mostrar);
+        if (mostrar) visiveis++;
+      }
+      // Esconde a seção inteira (com o título) quando nada nela corresponde
+      var listas = [document.getElementById("listing-papers"), document.querySelector(".news-list")];
+      for (var j = 0; j < listas.length; j++) {
+        if (!listas[j]) continue;
+        var secao = listas[j].closest("section");
+        if (!secao) continue;
+        var temVisivel = listas[j].querySelector(".pub-card-link:not(.filtered-out), .news-card:not(.filtered-out)");
+        secao.style.display = temVisivel ? "" : "none";
+      }
+      vazio.hidden = visiveis > 0;
+    }
+
+    botao.addEventListener("click", pesquisar);
+    campo.addEventListener("keydown", function (evento) {
+      if (evento.key === "Enter") {
+        evento.preventDefault();
+        pesquisar();
+      }
+    });
+    campo.addEventListener("search", pesquisar);
+  });
+</script>
+```
+
+## Artigos
+
+::: {#papers}
+:::
+
+## Na mídia
+
+::: {#news}
+:::

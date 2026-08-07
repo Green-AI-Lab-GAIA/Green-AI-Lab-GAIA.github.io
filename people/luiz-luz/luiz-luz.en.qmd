@@ -1,0 +1,48 @@
+---
+title: "Luiz Luz"
+last: "Luz"
+first: "Luiz"
+people_group: "alumni"
+subtitle: "Generative AI Engineer, Dharma AI"
+education: "MSc in Mathematical Modeling, FGV EMAp"
+image: avatar.jpeg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/luiz-fernando-luz"
+    - icon: envelope
+      text: Email
+      href: "mailto:ziulluz@gmail.com"
+---
+
+::: {#perfil}
+
+He was a deep learning researcher at the GAIA Lab, applying computer vision to satellite data for biodiversity monitoring in the Amazon. He holds an MSc in Mathematical Modeling and a BSc in Data Science and AI, both from FGV EMAp. He works as a generative AI engineer at Dharma AI, building LLM agents and fine-tuning models.
+
+## Education
+
+- MSc in Mathematical Modeling (ESG applications) — FGV EMAp, 2024–2025
+- BSc in Data Science and AI — FGV EMAp, 2020–2023
+
+## Interests
+
+Remote sensing, computer vision, LLM agents, and data engineering.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Back to the team</span>
+</a>
+```

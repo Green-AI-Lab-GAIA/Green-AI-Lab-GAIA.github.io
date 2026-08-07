@@ -1,0 +1,45 @@
+---
+title: "Gustavo Danon"
+last: "Danon"
+first: "Gustavo"
+people_group: "masters"
+subtitle: "Researcher"
+education: "MSc Student in Applied Mathematics and Data Science, FGV EMAp"
+image: avatar.svg
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.svg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/gustavodanon"
+---
+
+::: {#perfil}
+
+Computer engineer from the Military Institute of Engineering (IME) and MSc student in Applied Mathematics and Data Science at FGV EMAp. He worked as a data scientist at Open Co and as a research assistant at the Consiglio Nazionale delle Ricerche in Pisa.
+
+## Education
+
+- MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–
+- BSc in Computer Engineering — IME, 2020–2024
+
+## Interests
+
+Data science, machine learning, and computing.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Back to the team</span>
+</a>
+```

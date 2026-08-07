@@ -1,0 +1,48 @@
+---
+title: "João Alcindo"
+last: "Alcindo"
+first: "João"
+people_group: "masters"
+subtitle: "Assistente de Pesquisa"
+education: "Mestre em Matemática Aplicada e Ciência de Dados, FGV EMAp"
+image: avatar.png
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/joao-alcindo"
+    - icon: envelope
+      text: Email
+      href: "mailto:joao.az-rib@hotmail.com"
+---
+
+::: {#perfil}
+
+Assistente de pesquisa no GAIA Lab, aplicando visão computacional e deep learning a imagens de satélite para sustentabilidade e monitoramento ambiental — de modelos self-supervised para reflorestamento e desmatamento à agricultura com imagens hiperespectrais. Mestre em Matemática Aplicada e Ciência de Dados pela FGV EMAp e bacharel em Ciência de Dados e IA pela mesma escola. Parte para um mestrado na França, seguindo vinculado aos projetos do laboratório.
+
+## Formação
+
+- Mestrado em Matemática Aplicada e Ciência de Dados — FGV EMAp, 2024–2026
+- Graduação em Ciência de Dados e IA — FGV EMAp, 2020–2023
+
+## Interesses
+
+Sensoriamento remoto, observação da Terra e agricultura.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```
