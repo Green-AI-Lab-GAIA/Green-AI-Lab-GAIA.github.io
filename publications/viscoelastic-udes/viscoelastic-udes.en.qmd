@@ -60,7 +60,7 @@ and robustness of UDEs in rheological modeling.
   title     = {Finding the underlying viscoelastic constitutive equation via
                universal differential equations and differentiable physics},
   author    = {Rodrigues, Elias C. and Thompson, Roney L. and
-               Oliveira, DÁrio A. B. and Ausas, Roberto F.},
+               Oliveira, Dário A. B. and Ausas, Roberto F.},
   journal   = {Engineering Applications of Artificial Intelligence},
   volume    = {160},
   pages     = {111788},
