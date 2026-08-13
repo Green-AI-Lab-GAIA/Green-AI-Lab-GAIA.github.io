@@ -3,9 +3,10 @@ title: "Heitor Trielli"
 last: "Trielli"
 first: "Heitor"
 people_group: "masters"
-subtitle: "Pesquisador"
+subtitle: "Assistente de Pesquisa"
 education: "Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,12 +16,17 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/heitortrielli"
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 ::: {#perfil}
 
@@ -28,9 +34,9 @@ Mestrando em Matemática Aplicada e Ciência de Dados na FGV EMAp, com mestrado 
 
 ## Formação
 
-- Mestrado em Matemática Aplicada e Ciência de Dados — FGV EMAp, 2025–2027
-- Mestrado em Economia — FGV EPGE, 2020–2023
-- Graduação em Economia — FGV EPGE, 2017–2020
+- Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp.
+- Mestrado em Economia, FGV EPGE.
+- Graduação em Economia, FGV EPGE.
 
 ## Interesses
 
@@ -43,4 +49,9 @@ Inferência causal, econometria e programação em Python, R e Julia.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

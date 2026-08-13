@@ -3,9 +3,10 @@ title: "Gustavo Danon"
 last: "Danon"
 first: "Gustavo"
 people_group: "masters"
-subtitle: "Researcher"
+subtitle: "Research Assistant"
 education: "MSc Student in Applied Mathematics and Data Science, FGV EMAp"
-image: avatar.svg
+image: avatar.jpg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,12 +16,17 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpg
   links:
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/gustavodanon"
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 ::: {#perfil}
 
@@ -28,8 +34,8 @@ Computer engineer from the Military Institute of Engineering (IME) and MSc stude
 
 ## Education
 
-- MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–
-- BSc in Computer Engineering — IME, 2020–2024
+- MSc student in Applied Mathematics and Data Science, FGV EMAp.
+- BSc in Computer Engineering, IME.
 
 ## Interests
 
@@ -42,4 +48,9 @@ Data science, machine learning, and computing.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

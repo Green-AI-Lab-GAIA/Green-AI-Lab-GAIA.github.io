@@ -55,11 +55,39 @@
       document.body.removeChild(area);
     }
 
-    var emails = document.querySelectorAll('a[href^="mailto:"]');
-    for (var j = 0; j < emails.length; j++) {
-      emails[j].addEventListener("click", function (evento) {
-        evento.preventDefault();
-        copiar(this.getAttribute("href").replace(/^mailto:/, ""));
+    // E-mails nunca aparecem inteiros no HTML (proteção contra robôs de
+    // spam): ficam em atributos separados e o clique copia o endereço,
+    // montado só em tempo de execução
+    var protegidos = document.querySelectorAll("[data-user][data-domain]");
+    for (var p = 0; p < protegidos.length; p++) {
+      protegidos[p].addEventListener("click", function () {
+        copiar(this.getAttribute("data-user") + "@" + this.getAttribute("data-domain"));
+      });
+    }
+
+    // Botões de voltar: quando a página anterior do histórico é exatamente o
+    // destino do botão, volta pelo histórico do navegador — que restaura a
+    // posição de rolagem de onde o visitante parou na listagem
+    function semIndex(caminho) {
+      return caminho.replace(/index\.html$/, "");
+    }
+
+    var voltas = document.querySelectorAll("a.back-link");
+    for (var k = 0; k < voltas.length; k++) {
+      voltas[k].addEventListener("click", function (evento) {
+        if (!document.referrer) return;
+        var origem;
+        try {
+          origem = new URL(document.referrer);
+        } catch (erro) {
+          return;
+        }
+        var destino = new URL(this.getAttribute("href"), window.location.href);
+        if (origem.origin === window.location.origin &&
+            semIndex(origem.pathname) === semIndex(destino.pathname)) {
+          evento.preventDefault();
+          history.back();
+        }
       });
     }
   });

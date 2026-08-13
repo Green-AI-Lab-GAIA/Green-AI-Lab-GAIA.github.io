@@ -3,9 +3,10 @@ title: "Lívia Cereja Meinhardt"
 last: "Meinhardt"
 first: "Lívia"
 people_group: "phd"
-subtitle: "Deep Learning Researcher"
+subtitle: "Research Assistant"
 education: "PhD Student, FGV EMAp"
-image: avatar.jpeg
+image: avatar.jpg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.jpeg
+  image: avatar.jpg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,15 +26,20 @@ about:
       href: "mailto:livia.meinhardt@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Deep learning researcher at the GAIA Lab. PhD student at FGV EMAp, where she also earned an MSc in Mathematical Modeling and Data Science and a BSc in Data Science and AI. She previously worked in quantitative credit research at SPX Capital.
 
 ## Education
 
-- PhD — FGV EMAp (in progress)
-- MSc in Mathematical Modeling and Data Science — FGV EMAp, 2024–2025
-- BSc in Data Science and AI — FGV EMAp, 2020–2023
+- PhD student, FGV EMAp.
+- MSc in Mathematical Modeling and Data Science, FGV EMAp.
+- BSc in Data Science and AI, FGV EMAp.
 
 ## Interests
 
@@ -46,4 +52,9 @@ Machine learning, deep learning, and statistical modeling.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

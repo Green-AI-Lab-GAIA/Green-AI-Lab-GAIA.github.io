@@ -6,6 +6,7 @@ people_group: "alumni"
 subtitle: "Senior Data Scientist, Radix"
 education: "PhD in Mechanical Engineering, PUC-Rio"
 image: avatar.png
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -22,16 +23,21 @@ about:
       href: "https://www.linkedin.com/in/eliascrodrigues"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 PhD in Mechanical Engineering from PUC-Rio, MSc from UFRJ, and BSc in Physics from UERJ, with an MBA in Data Science from ICMC-USP. He was an applied machine learning specialist at FGV (2023–2025), working with physics-based models (PINNs, Neural ODEs). He is currently a researcher and senior data scientist at Radix.
 
 ## Education
 
-- MBA in Data Science — ICMC/USP, 2023–2024
-- PhD in Mechanical Engineering — PUC-Rio, 2014–2018
-- MSc in Civil Engineering (Computational Geophysics) — UFRJ, 2009–2011
-- BSc in Physics — UERJ, 2004–2008
+- MBA in Data Science, ICMC/USP.
+- PhD in Mechanical Engineering, PUC-Rio.
+- MSc in Civil Engineering (Computational Geophysics), UFRJ.
+- BSc in Physics, UERJ.
 
 ## Interests
 
@@ -44,4 +50,9 @@ Scientific machine learning, computational simulation, and predictive models.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

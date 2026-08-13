@@ -1,0 +1,5 @@
+```{=html}
+<button class="gallery-thumb" type="button" data-caption="Prestigiando os recém titulados mestres do Lab, Julho de 2026"><img src="images/galeria/cerimomia-pos-2026.jpg" alt="Prestigiando os recém titulados mestres do Lab, Julho de 2026" loading="lazy"></button>
+<button class="gallery-thumb" type="button" data-caption="Confraternização de fim de ano, Dezembro de 2025"><img src="images/galeria/fim-de-ano-2025a.jpeg" alt="Confraternização de fim de ano, Dezembro de 2025" loading="lazy"></button>
+<button class="gallery-thumb" type="button" data-caption="Mesma coisa, mas com as mãos para o alto"><img src="images/galeria/fim-de-ano-2025b.jpeg" alt="Mesma coisa, mas com as mãos para o alto" loading="lazy"></button>
+```

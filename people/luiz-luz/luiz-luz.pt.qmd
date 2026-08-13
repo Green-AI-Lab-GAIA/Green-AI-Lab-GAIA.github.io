@@ -6,6 +6,7 @@ people_group: "alumni"
 subtitle: "Engenheiro de IA Generativa, Dharma AI"
 education: "Mestre em Modelagem Matemática, FGV EMAp"
 image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -25,14 +26,19 @@ about:
       href: "mailto:ziulluz@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Foi pesquisador de deep learning no GAIA Lab, aplicando visão computacional a dados de satélite para monitoramento da biodiversidade na Amazônia. Mestre em Modelagem Matemática pela FGV EMAp e graduado em Ciência de Dados e IA pela mesma escola. Atua como engenheiro de IA generativa na Dharma AI, com agentes LLM e fine-tuning de modelos.
 
 ## Formação
 
-- Mestrado em Modelagem Matemática (aplicações ESG) — FGV EMAp, 2024–2025
-- Graduação em Ciência de Dados e IA — FGV EMAp, 2020–2023
+- Mestrado em Modelagem Matemática (aplicações ESG), FGV EMAp.
+- Graduação em Ciência de Dados e IA, FGV EMAp.
 
 ## Interesses
 
@@ -45,4 +51,9 @@ Sensoriamento remoto, visão computacional, agentes LLM e engenharia de dados.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

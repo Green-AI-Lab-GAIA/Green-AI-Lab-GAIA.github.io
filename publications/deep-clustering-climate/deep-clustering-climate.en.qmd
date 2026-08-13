@@ -6,13 +6,19 @@ venue: "arXiv preprint"
 date: 2026-04-24
 image: thumbnail.png
 snippet: "Masked Siamese Networks discretize climate time series into semantically rich clusters, with statistical associations to El Niño events."
+page-layout: full
 toc: false
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 :::: {.pub-detail}
 
 ::: {.pub-detail-thumb}
-[![First page of the paper](thumbnail.png)](https://arxiv.org/abs/2604.22909)
+[![](thumbnail.png)](https://arxiv.org/abs/2604.22909)
 :::
 
 ::: {.pub-detail-meta}
@@ -43,13 +49,22 @@ highlight the potential of self-supervised discretization as a tool for
 climate data analysis and open avenues for incorporating richer climate
 indicators in future work.
 
+
+:::: {.pub-figures}
+![Spatial extent of the selected study region (Brazilian Cerrado) used for model training and evaluation.](fig1.png)
+
+![Lagged probability analysis showing the sensitivity of the learned regimes at lags $\tau \in \left[ −12, +12 \right]$ months relative to the Oceanic Nino Index. 
+Negative lags indicate precursor behavior before El Nino, while positive lags indicate delayed responses after the ENSO peak.](fig2.png)
+::::
+
+
 ## Cite this publication
 
 ```bibtex
 @misc{meinhardt2026deepclustering,
   title         = {Deep Clustering for Climate: Analyzing Teleconnections
                    through Learned Categorical States},
-  author        = {Meinhardt, L{\'i}via and Oliveira, D{\'a}rio},
+  author        = {Meinhardt, Lívia and Oliveira, Dário},
   year          = {2026},
   eprint        = {2604.22909},
   archivePrefix = {arXiv}
@@ -61,4 +76,9 @@ indicators in future work.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to publications</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

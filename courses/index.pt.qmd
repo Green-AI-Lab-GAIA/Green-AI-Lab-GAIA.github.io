@@ -9,6 +9,11 @@ toc: false
 ---
 
 ```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
+```{=html}
 <div class="course-list">
 
   <div class="course-card">
@@ -43,5 +48,10 @@ toc: false
     </div>
   </div>
 
+</div>
+```
+
+```{=html}
+</div>
 </div>
 ```

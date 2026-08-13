@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <!-- Avatar padrão para membros sem fotografia -->
-  <rect width="400" height="400" fill="#e6eae2"/>
-  <circle cx="200" cy="150" r="70" fill="#9db092"/>
-  <path d="M200 240c-78 0-130 46-130 118v42h260v-42c0-72-52-118-130-118z" fill="#9db092"/>
-</svg>

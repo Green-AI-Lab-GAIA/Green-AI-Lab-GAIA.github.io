@@ -1,8 +1,11 @@
 ---
 title: "GAIA Lab"
-# A logo é servida localmente (icon/) para carregar junto com o resto da página
+# A logo é servida localmente (icon/) para carregar junto com o resto da
+# página; as imagens padrão são os fallbacks de fotos quebradas no site todo
 resources:
   - "icon/"
+  - "images/avatar-default.svg"
+  - "images/paper-default.svg"
 page-layout: custom
 body-classes: "home"
 toc: false

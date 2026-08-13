@@ -8,6 +8,7 @@ people_group: "professor | postdoc | phd | masters | undergrad | alumni"
 subtitle: "Role at GAIA Lab (e.g., Research Assistant)"
 education: "Card line (e.g., MSc Student in X, FGV EMAp)"
 image: avatar.jpg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto
@@ -24,12 +25,22 @@ about:
       href: "mailto:nome@exemplo.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 Direct bio in 2–4 sentences: earned a degree in..., researches..., works as...
 
 ## Education
 
-- Degree in Program — Institution, years
+- Degree in Program, Institution. (if ongoing, use MSc student / PhD student / BSc student)
 
 ## Interests
 
 Comma-separated areas of interest.
+
+```{=html}
+</div>
+</div>
+```

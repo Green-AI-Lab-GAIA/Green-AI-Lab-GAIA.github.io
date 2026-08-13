@@ -3,9 +3,10 @@ title: "Heitor Trielli"
 last: "Trielli"
 first: "Heitor"
 people_group: "masters"
-subtitle: "Researcher"
+subtitle: "Research Assistant"
 education: "MSc Student in Applied Mathematics and Data Science, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,12 +16,17 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/heitortrielli"
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 ::: {#perfil}
 
@@ -28,9 +34,9 @@ MSc student in Applied Mathematics and Data Science at FGV EMAp, holding an MSc 
 
 ## Education
 
-- MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2027
-- MSc in Economics — FGV EPGE, 2020–2023
-- BSc in Economics — FGV EPGE, 2017–2020
+- MSc student in Applied Mathematics and Data Science, FGV EMAp.
+- MSc in Economics, FGV EPGE.
+- BSc in Economics, FGV EPGE.
 
 ## Interests
 
@@ -43,4 +49,9 @@ Causal inference, econometrics, and programming in Python, R, and Julia.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

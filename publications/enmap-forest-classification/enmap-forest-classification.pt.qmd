@@ -4,15 +4,21 @@ paper-authors: "Matheus Pinheiro Ferreira, Matheus Santos Fuza, José M. S. M. V
 pub-date: "Abril de 2026"
 venue: "International Journal of Remote Sensing"
 date: 2026-04-03
-image: thumbnail.svg
+image: thumbnail.png
 snippet: "Ensemble de deep learning com imagens hiperespectrais do satélite EnMAP para classificar tipos de cobertura florestal em São Paulo."
+page-layout: full
 toc: false
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 :::: {.pub-detail}
 
 ::: {.pub-detail-thumb}
-[![Representação esquemática do artigo](thumbnail.svg)](https://scholar.google.com.br/citations?view_op=view_citation&hl=pt-BR&user=Nswjaf0AAAAJ&citation_for_view=Nswjaf0AAAAJ:-FonjvnnhkoC)
+[![](thumbnail.png)](https://www.tandfonline.com/doi/figure/10.1080/01431161.2026.2628300?scroll=top&needAccess=true)
 :::
 
 ::: {.pub-detail-meta}
@@ -20,26 +26,45 @@ toc: false
 
 **Publicação:** Abril de 2026 — International Journal of Remote Sensing, v. 47, n. 7, p. 3213–3238 (Taylor & Francis)
 
-[Ver publicação](https://scholar.google.com.br/citations?view_op=view_citation&hl=pt-BR&user=Nswjaf0AAAAJ&citation_for_view=Nswjaf0AAAAJ:-FonjvnnhkoC){.pub-btn}
+[Ver publicação](https://www.tandfonline.com/doi/figure/10.1080/01431161.2026.2628300?scroll=top&needAccess=true){.pub-btn}
+[Baixar PDF](https://www.tandfonline.com/doi/epdf/10.1080/01431161.2026.2628300?needAccess=true){.pub-btn}
+
 :::
 
 ::::
 
 ## Resumo
 
-Spatially explicit information on forest land-cover types is critical for
-effectively managing and conserving forest ecosystems and monitoring
-restoration initiatives. This study delves into the potential of the
-Environmental Mapping and Analysis Program (EnMAP) hyperspectral satellite for
-distinguishing between tropical forest land-cover types in São Paulo, Brazil.
-We developed and evaluated a novel ensemble deep learning approach,
-integrating a 1D Convolutional Neural Network (CNN), an autoencoder, and a
-Recurrent Neural Network (RNN), for pixel-wise classification. We also
-assessed the impact of spectral resolution by comparing EnMAP data with
-simulated Landsat 8 and Sentinel-2A data, and investigated the influence of
-band selection on classification accuracy. The study focused on mapping forest
-land-cover types, including conserved remnants, natural regeneration,
-restoration plantations, and […]
+Informações espacialmente explícitas sobre tipos de cobertura florestal são fundamentais para o manejo e a conservação 
+eficazes de ecossistemas florestais e para o monitoramento de iniciativas de restauração. Este estudo investiga o 
+potencial do satélite hiperespectral EnMAP (Environmental Mapping and Analysis Program) para distinguir entre tipos 
+de cobertura florestal tropical em São Paulo, Brasil. Desenvolvemos e avaliamos uma abordagem inovadora de ensemble 
+baseada em aprendizado profundo (deep learning), integrando uma Rede Neural Convolucional (CNN) 1D, um autoencoder e 
+uma Rede Neural Recorrente (RNN) para classificação em nível de pixel. Também avaliamos o impacto da resolução espectral 
+comparando dados do EnMAP com dados simulados do Landsat 8 e do Sentinel-2A, e investigamos a influência da seleção de 
+bandas na acurácia da classificação. O estudo concentrou-se no mapeamento de tipos de cobertura florestal, incluindo 
+remanescentes conservados, regeneração natural, plantios de restauração e monoculturas. Nossos resultados revelam distinções 
+significativas nas respostas espectrais entre esses tipos de cobertura florestal. O modelo de ensemble de aprendizado 
+profundo superou significativamente os modelos individuais de aprendizado profundo e os classificadores tradicionais de 
+Máquina de Vetores de Suporte (SVM), alcançando o maior F1-Score ponderado (0,700). Os dados do EnMAP também apresentaram 
+F1-scores significativamente superiores aos do Sentinel-2A e do Landsat-8 (p < 0,05), com os maiores ganhos observados para 
+regeneração natural e plantios de restauração. Curiosamente, a seleção de bandas não melhorou universalmente o desempenho da 
+classificação para os modelos de aprendizado profundo e, em alguns casos, levou a uma redução na acurácia. Embora as monoculturas 
+tenham sido classificadas com alta acurácia, foram observadas classificações incorretas entre regeneração natural e plantios 
+de restauração, bem como entre remanescentes conservados e regeneração natural, refletindo suas semelhanças espectrais. Este 
+estudo fornece insights valiosos sobre o uso eficaz de imagens hiperespectrais espaciais e de ensemble de aprendizado profundo 
+para o mapeamento robusto de tipos de cobertura florestal em regiões tropicais, enfatizando o papel crucial da alta resolução espectral.
+
+:::: {.pub-figures}
+![Localização da área de estudo no estado de São Paulo, Brasil. São apresentadas composições em cores reais de dezesseis cenas 
+do satélite hiperespectral EnMAP abrangendo o estado de São Paulo. Um detalhe no canto inferior esquerdo destaca a distribuição 
+espacial das parcelas de campo estabelecidas em quatro tipos de cobertura florestal.](fig1.jpg)
+
+![Abordagem de ensemble baseada em aprendizado profundo. Três modelos distintos de aprendizado profundo foram treinados de forma 
+independente: uma rede neural recorrente (RNN), um autoencoder e uma rede neural convolucional 1D (1D-CNN). Cada modelo gerou saídas 
+de probabilidade de classe, as quais foram posteriormente combinadas utilizando um mecanismo de votação rígida (hard voting) para 
+gerar a previsão final do ensemble.](fig2.jpg)
+::::
 
 ## Como citar
 
@@ -48,10 +73,10 @@ restoration plantations, and […]
   title     = {Exploring EnMAP hyperspectral images and ensemble deep learning
                for classifying forest land-cover types in Brazil},
   author    = {Pinheiro Ferreira, Matheus and Fuza, Matheus Santos and
-               Viveiros, Jos{\'e} M. S. M. and Ferranti, Tom{\'a}s and
-               Oliveira, D{\'a}rio and Santoro, Giulio Brossi and
+               Viveiros, José M. S. M. and Ferranti, Tomás and
+               Oliveira, Dário and Santoro, Giulio Brossi and
                Molin, Paulo Guilherme and de Almeida, Catherine Torres and
-               Resende, Ang{\'e}lica F. and de Almeida, Danilo R. A. and
+               Resende, Angélica F. and de Almeida, Danilo R. A. and
                Zeng, Yelu and Rodrigues, Ricardo Ribeiro and
                Brancalion, Pedro H. S.},
   journal   = {International Journal of Remote Sensing},
@@ -68,4 +93,9 @@ restoration plantations, and […]
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para as publicações</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

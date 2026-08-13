@@ -3,3 +3,6 @@ _site/
 
 # Perfis do LinkedIn usados como fonte (dados pessoais, nao publicar)
 /perfis/
+
+# PDFs do LinkedIn dentro das pastas de membros (dados pessoais)
+people/*/*.pdf

@@ -1,7 +1,13 @@
 ---
 title: "Join Us"
+page-layout: full
 toc: false
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 The GAIA Lab is always open to students and researchers interested in
 artificial intelligence applied to remote sensing, climate, forests, and
@@ -33,7 +39,7 @@ lab coordinator — review it and send it from your own email.
 </form>
 
 <p class="join-alt">Or write directly to
-<a href="mailto:dario.oliveira@fgv.br">dario.oliveira@fgv.br</a>
+<a class="email-protect" data-user="dario.oliveira" data-domain="fgv.br" role="button" tabindex="0">dario.oliveira [at] fgv.br</a>
 (click to copy the address).</p>
 
 <a class="back-link" href="/">
@@ -55,9 +61,16 @@ lab coordinator — review it and send it from your own email.
     var corpo = "Name: " + nome + "\nEmail: " + email +
                 "\nIntended level: " + nivel + "\n\n" + mensagem;
 
-    window.location.href = "mailto:dario.oliveira@fgv.br" +
+    // endereço montado em partes para não ficar exposto a robôs de spam
+    var destino = ["dario", "oliveira"].join(".") + "@" + "fgv.br";
+    window.location.href = "mailto:" + destino +
       "?subject=" + encodeURIComponent(assunto) +
       "&body=" + encodeURIComponent(corpo);
   });
 </script>
+```
+
+```{=html}
+</div>
+</div>
 ```

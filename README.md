@@ -31,8 +31,25 @@ Solte os arquivos de imagem (jpg, png, webp, gif, svg, avif) em
 ordem alfabética de nome de arquivo. A foto oficial do grupo é o arquivo
 `about/images/foto-oficial.jpg` (substitua mantendo o nome).
 
+## Adicionar uma publicação ou notícia
+
+Artigo: crie a pasta `publications/nome-do-artigo/` com a miniatura da
+primeira página do PDF (`thumbnail.png`) e copie os modelos
+`publications/_template.pt.qmd` e `_template.en.qmd`, renomeando para
+`nome-do-artigo.pt.qmd` e `nome-do-artigo.en.qmd`. Figuras do artigo (com
+legenda) entram no bloco `.pub-figures`, entre o resumo e a citação.
+Notícia: acrescente um item na listagem `news` no topo de
+`publications/index.pt.qmd` e `index.en.qmd` (título, link, data, fonte,
+foto e resumo). A busca, o filtro de anos e a paginação se ajustam sozinhos.
+
 ## Adicionar um membro da equipe
 
 Crie a pasta `people/nome-sobrenome/` com a foto e copie os modelos
 `people/_template.pt.qmd` e `people/_template.en.qmd` para dentro dela,
 renomeando para `nome-sobrenome.pt.qmd` e `nome-sobrenome.en.qmd`.
+
+Sobre a foto: envie recortada em quadrado (proporção 1:1) — assim o que você
+recortar é exatamente o que aparece no rol (quadrado) e no perfil (círculo).
+Use jpg, png ou webp com pelo menos 800×800 px (ideal 1200×1200) e arquivo de
+até ~500 KB. Fotos fora do 1:1 também funcionam: o site recorta sozinho,
+priorizando o topo da imagem.

@@ -3,9 +3,10 @@ title: "Juliana Carvalho"
 last: "Carvalho"
 first: "Juliana"
 people_group: "alumni"
-subtitle: "PhD Student in AI — CNAM, Paris"
+subtitle: "PhD Student in AI, CNAM, Paris"
 education: "PhD Student in Computer Science, CNAM"
 image: avatar.jpg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -22,16 +23,21 @@ about:
       href: "https://www.linkedin.com/in/julianacarvalhosouza"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 PhD student in Artificial Intelligence at CNAM, in Paris, and Applied Scientist Intern at Microsoft. She holds BSc degrees in Data Science and AI and in Applied Mathematics from FGV EMAp, and an MASH MSc from Université Paris Dauphine–PSL. Her research covers deep learning, computer vision, and remote sensing.
 
 ## Education
 
-- PhD in Computer Science — CNAM, 2025– (in progress)
-- MASH MSc (Mathematics and AI) — Université Paris Dauphine–PSL, 2024–2025
-- BSc in Data Science and AI — FGV EMAp, 2022–2024
-- BSc in Applied Mathematics — FGV EMAp, 2020–2023
+- PhD student in Computer Science, CNAM.
+- MASH MSc (Mathematics and AI), Université Paris Dauphine–PSL.
+- BSc in Data Science and AI, FGV EMAp.
+- BSc in Applied Mathematics, FGV EMAp.
 
 ## Interests
 
@@ -44,4 +50,9 @@ Deep learning, computer vision, and remote sensing.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

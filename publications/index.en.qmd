@@ -2,7 +2,8 @@
 title: "Publications"
 # Artigos: cada um é uma pasta com a página .pt/.en e a miniatura do PDF.
 # Notícias: itens declarados direto na listagem abaixo (link externo).
-# As duas listagens ordenam da mais recente para a mais antiga.
+# A alternância entre vistas, a busca, o filtro de anos e a paginação são
+# feitos pelo _includes/publication-filters.html sobre os cards renderizados.
 listing:
   - id: papers
     contents:
@@ -18,21 +19,24 @@ listing:
         news-source: "FGV"
         news-date: "July 16, 2025"
         image: "images/news-carne.png"
-        summary: "Study paves the way for developing applications that help consumers identify, through images, softer and juicier cuts."
+        summary: "Study paves the way for developing applications that help consumers identify, through images, softer and juicier
+        cuts."
       - title: "Study monitors deforestation and identifies plant species using artificial intelligence"
-        path: "https://portal.fgv.br/noticias/estudo-monitora-desmatamento-e-identifica-especies-vegetais-com-uso-de-inteligencia"
+        path: "https://portal.fgv.br/en/node/21767"
         date: 2025-03-20
         news-source: "FGV (in Portuguese)"
         news-date: "March 20, 2025"
         image: "images/news-desmatamento.jpg"
-        summary: "The LLP-Co method learns visual patterns and clusters large data volumes automatically, applied to identifying deforested areas and features of plant biodiversity in the Amazon rainforest."
-      - title: "Researchers create algorithm that classifies crops from satellite imagery"
-        path: "https://portal.fgv.br/noticias/pesquisadores-criam-algoritmo-realiza-classificacao-agricola-meio-imagens-satelite"
+        summary: "The LLP-Co method learns visual patterns and clusters large data volumes automatically, applied to identifying 
+        deforested areas and features of plant biodiversity in the Amazon rainforest."
+      - title: "Researchers create algorithm for crop classification using satellite images"
+        path: "https://portal.fgv.br/en/news/researchers-create-algorithm-crop-classification-using-satellite-images"
         date: 2024-10-08
-        news-source: "FGV (in Portuguese)"
+        news-source: "FGV"
         news-date: "October 8, 2024"
         image: "images/news-agricultura.jpg"
-        summary: "FGV EMAp study is the first to use a global-proportions approach to classify crops through self-supervised clustering."
+        summary: "FGV EMAp study is the first to use a global-proportions approach to classify crops through self-supervised 
+        clustering."
     template: ../_ejs/news-card.ejs
     sort: "date desc"
 resources:
@@ -42,70 +46,62 @@ toc: false
 ---
 
 ```{=html}
-<div class="pub-search">
-  <input type="search" id="pub-search-input" class="pub-search-input"
-         placeholder="Search papers and news..." aria-label="Search publications">
-  <button type="button" id="pub-search-btn" class="pub-search-btn" aria-label="Search">
-    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
-         stroke-width="2.4" stroke-linecap="round">
-      <circle cx="10.5" cy="10.5" r="6.5"/>
-      <path d="m15.5 15.5 5.5 5.5"/>
-    </svg>
-  </button>
+<div class="page-shell">
+<div class="page-main">
+<div id="pub-views" data-results-label="results">
+  <div class="pub-search">
+    <input type="search" id="pub-search-input" class="pub-search-input"
+           placeholder="Search by title, author, venue..." aria-label="Search publications">
+    <button type="button" id="pub-search-btn" class="pub-search-btn" aria-label="Search">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+           stroke-width="2.4" stroke-linecap="round">
+        <circle cx="10.5" cy="10.5" r="6.5"/>
+        <path d="m15.5 15.5 5.5 5.5"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="year-filter">
+    <span class="year-label" data-role="min"></span>
+    <div class="year-slider">
+      <div class="year-track"></div>
+      <div class="year-range"></div>
+      <input type="range" data-role="ano-min" step="1" aria-label="Start year">
+      <input type="range" data-role="ano-max" step="1" aria-label="End year">
+    </div>
+    <span class="year-label" data-role="max"></span>
+  </div>
+
+  <div class="pub-count"></div>
+  <div id="pub-search-empty" class="pub-search-empty" hidden>No results for the chosen filters.</div>
 </div>
-<div id="pub-search-empty" class="pub-search-empty" hidden>No results for this search.</div>
 
-<script>
-  // Filtra artigos e notícias pelo termo pesquisado (Enter ou clique na lupa);
-  // a comparação ignora maiúsculas e acentos. Limpar o campo restaura tudo.
-  document.addEventListener("DOMContentLoaded", function () {
-    var campo = document.getElementById("pub-search-input");
-    var botao = document.getElementById("pub-search-btn");
-    var vazio = document.getElementById("pub-search-empty");
-
-    function normalizar(texto) {
-      return texto.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-    }
-
-    function pesquisar() {
-      var termo = normalizar(campo.value.trim());
-      var cartoes = document.querySelectorAll(".pub-card-link, .news-card");
-      var visiveis = 0;
-      for (var i = 0; i < cartoes.length; i++) {
-        var mostrar = !termo || normalizar(cartoes[i].textContent).indexOf(termo) !== -1;
-        cartoes[i].classList.toggle("filtered-out", !mostrar);
-        if (mostrar) visiveis++;
-      }
-      // Esconde a seção inteira (com o título) quando nada nela corresponde
-      var listas = [document.getElementById("listing-papers"), document.querySelector(".news-list")];
-      for (var j = 0; j < listas.length; j++) {
-        if (!listas[j]) continue;
-        var secao = listas[j].closest("section");
-        if (!secao) continue;
-        var temVisivel = listas[j].querySelector(".pub-card-link:not(.filtered-out), .news-card:not(.filtered-out)");
-        secao.style.display = temVisivel ? "" : "none";
-      }
-      vazio.hidden = visiveis > 0;
-    }
-
-    botao.addEventListener("click", pesquisar);
-    campo.addEventListener("keydown", function (evento) {
-      if (evento.key === "Enter") {
-        evento.preventDefault();
-        pesquisar();
-      }
-    });
-    campo.addEventListener("search", pesquisar);
-  });
-</script>
+<div class="pub-view" data-view="papers">
 ```
-
-## Papers
 
 ::: {#papers}
 :::
 
-## In the News
+```{=html}
+</div>
+<div class="pub-view" data-view="news" hidden>
+```
 
 ::: {#news}
 :::
+
+```{=html}
+</div>
+<nav class="pub-pagination" aria-label="Pagination" hidden></nav>
+</div>
+<aside class="side-toc" aria-label="Contents">
+<div class="side-toc-body">
+  <div class="side-toc-title">Contents</div>
+  <ul>
+    <li><a class="side-toc-link active" data-view="papers" role="button" tabindex="0">Papers</a></li>
+    <li><a class="side-toc-link" data-view="news" role="button" tabindex="0">News</a></li>
+  </ul>
+</div>
+</aside>
+</div>
+```

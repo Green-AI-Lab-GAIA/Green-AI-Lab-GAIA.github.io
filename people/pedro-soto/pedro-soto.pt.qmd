@@ -1,0 +1,60 @@
+---
+title: "Pedro Soto"
+last: "Soto"
+first: "Pedro"
+people_group: "alumni"
+subtitle: "Pesquisador Científico em Vision-AD e AutoROB no L@BISEN"
+education: "Doutor em Engenharia Elétrica, PUC-Rio"
+image: avatar.jpeg
+page-layout: full
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/pedro-soto-738b92a6/"
+---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
+::: {#perfil}
+
+Doutor em Engenharia Elétrica pela PUC-Rio, mestre na mesma área pela PUC-Rio, bacharel em engenharia de telecomunicações e eletrônica 
+pela Universidad de Oriente Santiago de Cuba. Desenvolve pesquisas nas áreas de visão computacional, aprendizado de máquina, aprendizado 
+profundo, sensoriamento remoto e biometria. Membro da International Society of Photogrammetry and Remote Sensing (ISPRS) e do Capítulo 
+Brasileiro da IEEE Geoscience and Remote Sensing Society (GRSS). É pesquisador no laboratório da ISEN Yncréa Ouest, L@BISEN.
+
+## Formação
+
+- Doutorado em Engenharia Elétrica, PUC-Rio.
+- Mestrado em Processamento de Sinais, PUC-Rio.
+- Graduação em Engenharia de Telecomunicações e Eletrônica, Universidad de Oriente (Santiago de Cuba).
+
+## Interesses
+
+Visão computacional, aprendizado de máquina, aprendizado profundo, sensoriamento remoto e biometria.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Voltar para a equipe</span>
+</a>
+```
+
+```{=html}
+</div>
+</div>
+```
