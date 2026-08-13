@@ -1,0 +1,58 @@
+---
+title: "Eduardo Vianna de L. F. Guimarães"
+last: "Vianna"
+first: "Eduardo"
+people_group: "alumni"
+subtitle: "Data Scientist, BNDES"
+education: "BSc in Applied Mathematics, FGV EMAp"
+image: avatar.jpeg
+page-layout: full
+toc: false
+
+# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
+# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
+# em largura total
+about:
+  id: perfil
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/eduardo-vianna-guimaraes"
+---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
+::: {#perfil}
+
+He holds a BSc in Applied Mathematics from FGV EMAp, is a laureate of the
+CAPES Talento Universitário award, and a multi-medalist in the OBMEP math
+olympiad. He works as a data scientist at BNDES; previously, he worked at
+the Energy Research Office (EPE), SPX Capital, and Americanas.
+
+## Education
+
+- BSc in Applied Mathematics, FGV EMAp.
+
+## Interests
+
+Data science, data mining, and data wrangling.
+
+:::
+
+```{=html}
+<a class="back-link" href="/people/">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  <span>Back to the team</span>
+</a>
+```
+
+```{=html}
+</div>
+</div>
+```

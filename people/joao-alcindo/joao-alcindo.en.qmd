@@ -5,7 +5,8 @@ first: "João"
 people_group: "masters"
 subtitle: "Research Assistant"
 education: "MSc in Applied Mathematics and Data Science, FGV EMAp"
-image: avatar.png
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,14 +26,19 @@ about:
       href: "mailto:joao.az-rib@hotmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Research assistant at the GAIA Lab, applying computer vision and deep learning to satellite imagery for sustainability and environmental monitoring — from self-supervised models for reforestation and deforestation to agriculture with hyperspectral imagery. He holds an MSc in Applied Mathematics and Data Science and a BSc in Data Science and AI, both from FGV EMAp. He is heading to a master's program in France while remaining involved in the lab's projects.
 
 ## Education
 
-- MSc in Applied Mathematics and Data Science — FGV EMAp, 2024–2026
-- BSc in Data Science and AI — FGV EMAp, 2020–2023
+- MSc in Applied Mathematics and Data Science, FGV EMAp.
+- BSc in Data Science and AI, FGV EMAp.
 
 ## Interests
 
@@ -45,4 +51,9 @@ Remote sensing, Earth observation, and agriculture.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

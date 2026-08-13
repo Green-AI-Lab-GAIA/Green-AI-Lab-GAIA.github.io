@@ -5,7 +5,8 @@ first: "Thiago"
 people_group: "masters"
 subtitle: "Research Assistant"
 education: "MSc Student in Applied Mathematics and Data Science, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,18 +26,26 @@ about:
       href: "mailto:thiago.franke.ms@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
-Research assistant at the GAIA Lab. MSc student in Applied Mathematics and Data Science at FGV EMAp, where he also earned his BSc in Data Science and AI. He works as a data engineer at FGV.
+He holds a degree in Data Science and Artificial Intelligence from FGV EMAp and is currently pursuing a 
+master's degree in Applied Mathematics and Data Science at the same institution. At Gaia Lab, he conducts 
+research on remote sensing for forest and land-use monitoring. He also works as a data scientist at FGV, 
+focusing on LLMs and NLP.
 
 ## Education
 
-- MSc in Applied Mathematics and Data Science — FGV EMAp, 2026–2027
-- BSc in Data Science and AI — FGV EMAp, 2022–2025
+- MSc student in Applied Mathematics and Data Science, FGV EMAp.
+- BSc in Data Science and AI, FGV EMAp.
 
 ## Interests
 
-Machine learning, LLMs and NLP, computer vision for remote sensing.
+Machine learning and computer vision for remote sensing.
 
 :::
 
@@ -45,4 +54,9 @@ Machine learning, LLMs and NLP, computer vision for remote sensing.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

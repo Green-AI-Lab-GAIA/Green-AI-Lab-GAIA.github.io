@@ -9,6 +9,7 @@ people_group: "professor | postdoc | phd | masters | undergrad | alumni"
 subtitle: "Cargo no GAIA Lab (ex.: Assistente de Pesquisa)"
 education: "Formação para o card (ex.: Mestrando em X, FGV EMAp)"
 image: avatar.jpg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto
@@ -25,12 +26,22 @@ about:
       href: "mailto:nome@exemplo.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 Biografia direta em 2 a 4 frases: graduou-se em..., pesquisa..., atua como...
 
 ## Formação
 
-- Grau em Curso — Instituição, anos
+- Grau em Curso, Instituição. (em andamento: use o gerúndio — Graduando, Mestrando, Doutorando)
 
 ## Interesses
 
 Áreas de interesse separadas por vírgula.
+
+```{=html}
+</div>
+</div>
+```

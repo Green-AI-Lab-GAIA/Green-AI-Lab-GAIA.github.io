@@ -3,9 +3,10 @@ title: "Rodrigo Gomes Hutz Pintucci"
 last: "Pintucci"
 first: "Rodrigo"
 people_group: "masters"
-subtitle: "Pesquisador"
+subtitle: "Assistente de Pesquisa"
 education: "Mestrando, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,15 +26,20 @@ about:
       href: "mailto:rodrigoghp@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Mestrando na FGV EMAp e pesquisador do GAIA Lab. Bacharel em Ciência de Dados e IA pela mesma escola, selecionado pelo programa Seleção de Talentos por seu desempenho na OBMEP. Estagiou na Lorinvest Gestão de Recursos.
 
 ## Formação
 
-- Mestrado — FGV EMAp (em andamento)
-- Graduação em Ciência de Dados e IA — FGV EMAp, 2021–2024
-- Técnico em Automação Industrial — ETE FMC, 2018–2020
+- Mestrando,, FGV EMAp.
+- Graduação em Ciência de Dados e IA, FGV EMAp.
+- Técnico em Automação Industrial, ETE FMC.
 
 ## Interesses
 
@@ -46,4 +52,9 @@ Python, visualização de dados e Power BI.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

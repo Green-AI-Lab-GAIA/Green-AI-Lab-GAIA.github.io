@@ -3,9 +3,10 @@ title: "Lucas Westfal"
 last: "Westfal"
 first: "Lucas"
 people_group: "masters"
-subtitle: "Researcher"
+subtitle: "Research Assistant"
 education: "MSc Student, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,12 +16,17 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/lucas-westfal-001aab1b1"
 ---
+
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
 
 ::: {#perfil}
 
@@ -28,9 +34,9 @@ MSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Applied Mathemati
 
 ## Education
 
-- MSc — FGV EMAp (in progress)
-- BSc in Applied Mathematics — FGV EMAp, 2021–2024
-- Technical degree in Mechatronics — IFSC, 2018–2020
+- MSc student, FGV EMAp.
+- BSc in Applied Mathematics, FGV EMAp.
+- Technical degree in Mechatronics, IFSC.
 
 ## Interests
 
@@ -43,4 +49,9 @@ Pervasive health, IoT, computer vision, and medical informatics.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

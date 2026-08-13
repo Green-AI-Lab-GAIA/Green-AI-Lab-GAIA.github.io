@@ -3,9 +3,10 @@ title: "Juliana Carvalho"
 last: "Carvalho"
 first: "Juliana"
 people_group: "alumni"
-subtitle: "Doutoranda em IA — CNAM, Paris"
+subtitle: "Doutoranda em IA, CNAM, Paris"
 education: "Doutoranda em Ciência da Computação, CNAM"
 image: avatar.jpg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -22,16 +23,21 @@ about:
       href: "https://www.linkedin.com/in/julianacarvalhosouza"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Doutoranda em Inteligência Artificial no CNAM, em Paris, e Applied Scientist Intern na Microsoft. Formada em Ciência de Dados e IA e em Matemática Aplicada pela FGV EMAp, com mestrado MASH pela Université Paris Dauphine–PSL. Pesquisa deep learning, visão computacional e sensoriamento remoto.
 
 ## Formação
 
-- Doutorado em Ciência da Computação — CNAM, 2025– (em andamento)
-- Mestrado MASH (Matemática e IA) — Université Paris Dauphine–PSL, 2024–2025
-- Graduação em Ciência de Dados e IA — FGV EMAp, 2022–2024
-- Graduação em Matemática Aplicada — FGV EMAp, 2020–2023
+- Doutoranda em Ciência da Computação, CNAM.
+- Mestrado MASH (Matemática e IA), Université Paris Dauphine–PSL.
+- Graduação em Ciência de Dados e IA, FGV EMAp.
+- Graduação em Matemática Aplicada, FGV EMAp.
 
 ## Interesses
 
@@ -44,4 +50,9 @@ Deep learning, visão computacional e sensoriamento remoto.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

@@ -5,7 +5,8 @@ first: "Thiago"
 people_group: "masters"
 subtitle: "Assistente de Pesquisa"
 education: "Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,18 +26,25 @@ about:
       href: "mailto:thiago.franke.ms@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
-Assistente de pesquisa no GAIA Lab. Mestrando em Matemática Aplicada e Ciência de Dados na FGV EMAp, graduado em Ciência de Dados e IA pela mesma escola. Atua como engenheiro de dados na FGV.
+Graduado em Ciência de Dados e Inteligência Artificial pela FGV EMAp e mestrando em Matemática Aplicada 
+e Ciência de Dados pela mesma instituição. No Gaia Lab, pesquisa sensoriamento remoto no monitoramento 
+de florestas e do uso da terra. Também atua como cientista de dados na FGV, com foco em LLMs e PLN.
 
 ## Formação
 
-- Mestrado em Matemática Aplicada e Ciência de Dados — FGV EMAp, 2026–2027
-- Graduação em Ciência de Dados e IA — FGV EMAp, 2022–2025
+- Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp.
+- Graduação em Ciência de Dados e IA, FGV EMAp.
 
 ## Interesses
 
-Machine learning, LLMs e NLP, visão computacional para sensoriamento remoto.
+Aprendizado de máquina e visão computacional para sensoriamento remoto.
 
 :::
 
@@ -45,4 +53,9 @@ Machine learning, LLMs e NLP, visão computacional para sensoriamento remoto.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

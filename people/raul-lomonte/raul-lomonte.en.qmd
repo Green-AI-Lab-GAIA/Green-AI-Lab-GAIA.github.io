@@ -3,9 +3,10 @@ title: "Raul Lomonte Figueiredo"
 last: "Lomonte"
 first: "Raul"
 people_group: "masters"
-subtitle: "Deep Learning Researcher"
+subtitle: "Research Assistant"
 education: "MSc Student in Applied Mathematics and Data Science, FGV EMAp"
 image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -25,15 +26,20 @@ about:
       href: "mailto:raullomonte13@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
-Deep learning researcher at the GAIA Lab since 2023, focused on remote sensing applied to agribusiness. MSc student in Applied Mathematics and Data Science at FGV EMAp, where he also earned his BSc in Data Science and AI. He works as a computer vision engineer at Audsat and was a research data scientist at IRB(Re).
+Deep learning researcher at GAIA Lab since 2023, working at the intersection of computer vision, artificial intelligence, and georeferenced data. Focuses on deep learning models for remote sensing applied to agribusiness, with emphasis on learning under noisy labels and uncertainty quantification. Master's student in Applied Mathematics and Data Science at FGV EMAp, and holds a bachelor's degree in Data Science and AI from the same school.
 
 ## Education
 
-- MSc in Applied Mathematics and Data Science — FGV EMAp, 2025–2026
-- BSc in Data Science and AI — FGV EMAp, 2021–2024
-- Technical degree in Informatics — IFSULDEMINAS, 2018–2020
+- MSc student in Applied Mathematics and Data Science, FGV EMAp.
+- BSc in Data Science and AI, FGV EMAp.
+- Technical degree in Informatics, IFSULDEMINAS.
 
 ## Interests
 
@@ -46,4 +52,9 @@ Artificial intelligence, remote sensing, and agribusiness.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

@@ -6,6 +6,7 @@ people_group: "alumni"
 subtitle: "Generative AI Engineer, Dharma AI"
 education: "MSc in Mathematical Modeling, FGV EMAp"
 image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -25,14 +26,19 @@ about:
       href: "mailto:ziulluz@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 He was a deep learning researcher at the GAIA Lab, applying computer vision to satellite data for biodiversity monitoring in the Amazon. He holds an MSc in Mathematical Modeling and a BSc in Data Science and AI, both from FGV EMAp. He works as a generative AI engineer at Dharma AI, building LLM agents and fine-tuning models.
 
 ## Education
 
-- MSc in Mathematical Modeling (ESG applications) — FGV EMAp, 2024–2025
-- BSc in Data Science and AI — FGV EMAp, 2020–2023
+- MSc in Mathematical Modeling (ESG applications), FGV EMAp.
+- BSc in Data Science and AI, FGV EMAp.
 
 ## Interests
 
@@ -45,4 +51,9 @@ Remote sensing, computer vision, LLM agents, and data engineering.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Back to the team</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

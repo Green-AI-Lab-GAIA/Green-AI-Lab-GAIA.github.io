@@ -1,0 +1,5 @@
+```{=html}
+<button class="gallery-thumb" type="button" data-caption="Celebrating the Lab&#x27;s newly minted Master&#x27;s graduates, July 2026"><img src="images/galeria/cerimomia-pos-2026.jpg" alt="Celebrating the Lab&#x27;s newly minted Master&#x27;s graduates, July 2026" loading="lazy"></button>
+<button class="gallery-thumb" type="button" data-caption="End-of-year gathering, December 2025"><img src="images/galeria/fim-de-ano-2025a.jpeg" alt="End-of-year gathering, December 2025" loading="lazy"></button>
+<button class="gallery-thumb" type="button" data-caption="Same thing, but with hands raised"><img src="images/galeria/fim-de-ano-2025b.jpeg" alt="Same thing, but with hands raised" loading="lazy"></button>
+```

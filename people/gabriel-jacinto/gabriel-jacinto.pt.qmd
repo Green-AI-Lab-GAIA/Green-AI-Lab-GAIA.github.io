@@ -3,9 +3,10 @@ title: "Gabriel Jacinto Pereira"
 last: "Pereira"
 first: "Gabriel"
 people_group: "masters"
-subtitle: "Pesquisador"
+subtitle: "Assistente de Pesquisa"
 education: "Mestrando, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,14 +26,19 @@ about:
       href: "mailto:gabrielpereirajp1201@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Mestrando na FGV EMAp e pesquisador do GAIA Lab. Bacharel em Ciência de Dados e IA pela mesma escola, bolsista de mérito do CDMC e multimedalhista em olimpíadas científicas (OBMEP, OBA). Estagiou em ciência e engenharia de dados na C Capital.
 
 ## Formação
 
-- Mestrado — FGV EMAp (em andamento)
-- Graduação em Ciência de Dados e IA — FGV EMAp, 2022–2025
+- Mestrando,, FGV EMAp.
+- Graduação em Ciência de Dados e IA, FGV EMAp.
 
 ## Interesses
 
@@ -45,4 +51,9 @@ Machine learning, séries temporais e matemática aplicada.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```

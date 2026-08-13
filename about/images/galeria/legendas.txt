@@ -1,0 +1,7 @@
+# Legendas das fotos da galeria — uma linha por foto, no formato:
+# nome-do-arquivo | legenda em português | caption in English
+# Fotos sem linha aqui usam o nome do arquivo como legenda.
+
+cerimomia-pos-2026.jpg | Prestigiando os recém titulados mestres do Lab, Julho de 2026 | Celebrating the Lab's newly minted Master's graduates, July 2026
+fim-de-ano-2025a.jpeg | Confraternização de fim de ano, Dezembro de 2025 | End-of-year gathering, December 2025
+fim-de-ano-2025b.jpeg | Mesma coisa, mas com as mãos para o alto | Same thing, but with hands raised

@@ -8,6 +8,11 @@ toc: false
 ---
 
 ```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
+```{=html}
 <p class="mission reveal">Lorem ipsum dolor sit amet, applying
 <em class="mark">deep learning</em> to the monitoring of
 <em class="mark">climate</em>, <em class="mark">forests</em>, and
@@ -48,16 +53,23 @@ eiusmod tempor incididunt.</p>
 ## Gallery
 
 ```{=html}
-<div class="gallery reveal">
-  <figure class="gallery-item gallery-featured">
-    <img src="images/foto-oficial.jpg" alt="Official photo of the GAIA Lab research group">
-    <figcaption>Official photo of the GAIA Lab research group</figcaption>
-  </figure>
+<div class="gallery-show">
+  <div class="gallery-stage">
+    <img class="gallery-stage-img" alt="">
+    <div class="gallery-progress"></div>
+    <div class="gallery-stage-caption"></div>
+  </div>
+  <div class="gallery-strip">
+    <button class="hscroll-btn prev" aria-label="Previous photos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="gallery-thumbs">
 ```
 
-{{< include _galeria.qmd >}}
+{{< include _galeria.en.qmd >}}
 
 ```{=html}
+    </div>
+    <button class="hscroll-btn next" aria-label="Next photos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m9 5 7 7-7 7"/></svg></button>
+  </div>
 </div>
 ```
 
@@ -79,4 +91,9 @@ eiusmod tempor incididunt.</p>
   <a class="pub-btn" href="/join-us/">Join us</a>
   <a class="pub-btn" href="/people/">Meet the team</a>
 </p>
+```
+
+```{=html}
+</div>
+</div>
 ```

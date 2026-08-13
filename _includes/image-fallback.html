@@ -1,0 +1,31 @@
+<script>
+  // Substitui imagens quebradas (arquivo ausente ou campo image esquecido)
+  // por um padrão adequado ao contexto: avatar genérico para pessoas,
+  // miniatura esquemática para artigos; nos demais casos a imagem some e o
+  // layout segue sem ela.
+  document.addEventListener("DOMContentLoaded", function () {
+    var AVATAR = "/images/avatar-default.svg";
+    var ARTIGO = "/images/paper-default.svg";
+
+    function tratar(img) {
+      if (img.dataset.fallback) return;
+      img.dataset.fallback = "1";
+      if (img.classList.contains("listing-box-image") || img.classList.contains("about-image")) {
+        img.src = AVATAR;
+      } else if (img.classList.contains("pub-thumb") || img.closest(".pub-detail-thumb")) {
+        img.src = ARTIGO;
+      } else if (img.closest(".news-card") || img.classList.contains("course-image") || img.closest(".gallery-thumb")) {
+        (img.closest(".gallery-thumb") || img).style.display = "none";
+      }
+    }
+
+    var imagens = document.querySelectorAll("img");
+    for (var i = 0; i < imagens.length; i++) {
+      var img = imagens[i];
+      img.addEventListener("error", function () { tratar(this); });
+      // imagens raster que já falharam antes deste script rodar
+      var ehSvg = /\.svg(\?|$)/i.test(img.src);
+      if (img.complete && !ehSvg && img.naturalWidth === 0) tratar(img);
+    }
+  });
+</script>

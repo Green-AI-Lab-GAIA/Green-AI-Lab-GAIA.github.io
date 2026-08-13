@@ -62,6 +62,11 @@ page-layout: full
 toc: false
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ## Professor
 
 ::: {#professor}
@@ -93,3 +98,20 @@ toc: false
 
 ::: {#alumni}
 :::
+
+```{=html}
+</div>
+<aside class="side-toc" data-spy aria-label="Sumário">
+<div class="side-toc-body">
+  <div class="side-toc-title">Sumário</div>
+  <ul>
+    <li><a class="side-toc-link" href="#professor">Professor</a></li>
+    <li><a class="side-toc-link" href="#doutorado">Doutorado</a></li>
+    <li><a class="side-toc-link" href="#mestrado">Mestrado</a></li>
+    <li><a class="side-toc-link" href="#graduação">Graduação</a></li>
+    <li><a class="side-toc-link" href="#alumni">Alumni</a></li>
+  </ul>
+</div>
+</aside>
+</div>
+```

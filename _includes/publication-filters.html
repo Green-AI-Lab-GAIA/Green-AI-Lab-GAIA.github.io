@@ -1,0 +1,159 @@
+<script>
+  // Página de publicações: alterna entre as vistas de artigos e notícias,
+  // filtra por texto (busca) e por período (slider de anos) e pagina os
+  // resultados no navegador — o site é estático, então todo o trabalho é
+  // feito sobre os cards já renderizados na página.
+  document.addEventListener("DOMContentLoaded", function () {
+    var raiz = document.getElementById("pub-views");
+    if (!raiz) return;
+
+    var POR_PAGINA = 10;
+    var abas = document.querySelectorAll(".side-toc-link[data-view]");
+    var vistas = document.querySelectorAll(".pub-view");
+    var campo = document.getElementById("pub-search-input");
+    var lupa = document.getElementById("pub-search-btn");
+    var vazio = document.getElementById("pub-search-empty");
+    var contagem = raiz.querySelector(".pub-count");
+    var paginacao = document.querySelector(".pub-pagination");
+    var rotulo = raiz.getAttribute("data-results-label") || "resultados";
+
+    var anoMin = raiz.querySelector('[data-role="ano-min"]');
+    var anoMax = raiz.querySelector('[data-role="ano-max"]');
+    var rotuloMin = raiz.querySelector('.year-label[data-role="min"]');
+    var rotuloMax = raiz.querySelector('.year-label[data-role="max"]');
+    var faixa = raiz.querySelector(".year-range");
+
+    var estado = { vista: vistas[0].getAttribute("data-view"), pagina: 1 };
+
+    function normalizar(texto) {
+      return texto.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    }
+
+    function anoDe(el) {
+      var m = (el.getAttribute("data-date") || "").match(/\d{4}/);
+      return m ? +m[0] : null;
+    }
+
+    function itensDe(vista) {
+      return vista.querySelectorAll(".pub-card-link, .news-card");
+    }
+
+    // limites do slider a partir dos anos presentes nos cards
+    var anos = [];
+    for (var v = 0; v < vistas.length; v++) {
+      itensDe(vistas[v]).forEach(function (item) {
+        var ano = anoDe(item);
+        if (ano) anos.push(ano);
+      });
+    }
+    var menor = Math.min.apply(null, anos);
+    var maior = Math.max.apply(null, anos);
+    anoMin.min = anoMax.min = menor;
+    anoMin.max = anoMax.max = maior;
+    anoMin.value = menor;
+    anoMax.value = maior;
+
+    function atualizarSlider() {
+      // as bolinhas não podem se cruzar
+      if (+anoMin.value > +anoMax.value) {
+        if (document.activeElement === anoMin) anoMin.value = anoMax.value;
+        else anoMax.value = anoMin.value;
+      }
+      rotuloMin.textContent = anoMin.value;
+      rotuloMax.textContent = anoMax.value;
+      var total = Math.max(maior - menor, 1);
+      faixa.style.left = ((anoMin.value - menor) / total * 100) + "%";
+      faixa.style.right = (100 - (anoMax.value - menor) / total * 100) + "%";
+    }
+
+    function aplicar() {
+      var termo = normalizar(campo.value.trim());
+      var de = +anoMin.value;
+      var ate = +anoMax.value;
+      var filtrados = [];
+
+      for (var v = 0; v < vistas.length; v++) {
+        var ativa = vistas[v].getAttribute("data-view") === estado.vista;
+        vistas[v].hidden = !ativa;
+        itensDe(vistas[v]).forEach(function (item) {
+          if (!ativa) return;
+          var ano = anoDe(item);
+          var casaTexto = !termo || normalizar(item.textContent).indexOf(termo) !== -1;
+          var casaAno = !ano || (ano >= de && ano <= ate);
+          item.classList.add("filtered-out");
+          if (casaTexto && casaAno) filtrados.push(item);
+        });
+      }
+
+      for (var a = 0; a < abas.length; a++) {
+        abas[a].classList.toggle("active", abas[a].getAttribute("data-view") === estado.vista);
+      }
+
+      var paginas = Math.max(Math.ceil(filtrados.length / POR_PAGINA), 1);
+      estado.pagina = Math.min(Math.max(estado.pagina, 1), paginas);
+      var inicio = (estado.pagina - 1) * POR_PAGINA;
+      filtrados.slice(inicio, inicio + POR_PAGINA).forEach(function (item) {
+        item.classList.remove("filtered-out");
+      });
+
+      contagem.textContent = filtrados.length + " " +
+        (filtrados.length === 1 ? rotulo.replace(/s$/, "") : rotulo);
+      vazio.hidden = filtrados.length > 0;
+      atualizarSlider();
+
+      // botões de paginação: anterior, números e próxima
+      paginacao.innerHTML = "";
+      paginacao.hidden = paginas <= 1;
+      if (paginas <= 1) return;
+
+      function botao(texto, pagina, ativa, desabilitado) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "pub-page" + (ativa ? " active" : "");
+        b.textContent = texto;
+        b.disabled = !!desabilitado;
+        b.addEventListener("click", function () {
+          estado.pagina = pagina;
+          aplicar();
+          raiz.scrollIntoView({ block: "start", behavior: "smooth" });
+        });
+        paginacao.appendChild(b);
+      }
+
+      botao("‹", estado.pagina - 1, false, estado.pagina === 1);
+      for (var p = 1; p <= paginas; p++) botao(p, p, p === estado.pagina, false);
+      botao("›", estado.pagina + 1, false, estado.pagina === paginas);
+    }
+
+    for (var t = 0; t < abas.length; t++) {
+      abas[t].addEventListener("click", function () {
+        estado.vista = this.getAttribute("data-view");
+        estado.pagina = 1;
+        history.replaceState(null, "", "#" + estado.vista);
+        aplicar();
+      });
+    }
+
+    function pesquisar() {
+      estado.pagina = 1;
+      aplicar();
+    }
+    lupa.addEventListener("click", pesquisar);
+    campo.addEventListener("keydown", function (evento) {
+      if (evento.key === "Enter") {
+        evento.preventDefault();
+        pesquisar();
+      }
+    });
+    campo.addEventListener("search", pesquisar);
+    anoMin.addEventListener("input", pesquisar);
+    anoMax.addEventListener("input", pesquisar);
+
+    // permite chegar direto numa vista via link (#artigos, #noticias...)
+    var alvo = window.location.hash.replace("#", "");
+    for (var h = 0; h < vistas.length; h++) {
+      if (vistas[h].getAttribute("data-view") === alvo) estado.vista = alvo;
+    }
+    aplicar();
+  });
+</script>

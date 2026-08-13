@@ -3,9 +3,10 @@ title: "Erick Brito"
 last: "Brito"
 first: "Erick"
 people_group: "phd"
-subtitle: "Pesquisador de Deep Learning"
+subtitle: "Assistente de Pesquisa"
 education: "Doutorando, FGV EMAp"
-image: avatar.svg
+image: avatar.jpeg
+page-layout: full
 toc: false
 
 # Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
@@ -15,7 +16,7 @@ about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.svg
+  image: avatar.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,15 +26,20 @@ about:
       href: "mailto:erick.slbrito@gmail.com"
 ---
 
+```{=html}
+<div class="page-shell">
+<div class="page-main">
+```
+
 ::: {#perfil}
 
 Pesquisador de deep learning no GAIA Lab desde 2024. Doutorando na FGV EMAp, mestre em Matemática Aplicada e Ciência de Dados e graduado em Matemática Aplicada pela mesma escola.
 
 ## Formação
 
-- Doutorado — FGV EMAp (em andamento)
-- Mestrado em Matemática Aplicada e Ciência de Dados — FGV EMAp, 2024–2025
-- Graduação em Matemática Aplicada — FGV EMAp, 2020–2023
+- Doutorando,, FGV EMAp.
+- Mestrado em Matemática Aplicada e Ciência de Dados, FGV EMAp.
+- Graduação em Matemática Aplicada, FGV EMAp.
 
 ## Interesses
 
@@ -46,4 +52,9 @@ Visão computacional, inteligência artificial e algoritmos.
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
   <span>Voltar para a equipe</span>
 </a>
+```
+
+```{=html}
+</div>
+</div>
 ```
