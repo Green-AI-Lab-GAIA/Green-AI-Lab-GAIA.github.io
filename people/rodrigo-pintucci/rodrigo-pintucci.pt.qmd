@@ -5,18 +5,15 @@ first: "Rodrigo"
 people_group: "masters"
 subtitle: "Assistente de Pesquisa"
 education: "Mestrando, FGV EMAp"
-image: avatar.jpeg
+image: avatar.png
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.jpeg
+  image: avatar.png
   links:
     - icon: linkedin
       text: LinkedIn
@@ -33,17 +30,18 @@ about:
 
 ::: {#perfil}
 
-Mestrando na FGV EMAp e pesquisador do GAIA Lab. Bacharel em Ciência de Dados e IA pela mesma escola, selecionado pelo programa Seleção de Talentos por seu desempenho na OBMEP. Estagiou na Lorinvest Gestão de Recursos.
+Mestrando na FGV EMAp e pesquisador do GAIA Lab. Bacharel em Ciência de Dados e IA pela mesma escola, 
+selecionado pelo programa Seleção de Talentos por seu desempenho na OBMEP.
 
 ## Formação
 
-- Mestrando,, FGV EMAp.
+- Mestrando, FGV EMAp.
 - Graduação em Ciência de Dados e IA, FGV EMAp.
 - Técnico em Automação Industrial, ETE FMC.
 
 ## Interesses
 
-Python, visualização de dados e Power BI.
+Python, visualização de dados, visão computacional, aprendizado de máquinas.
 
 :::
 

@@ -2,16 +2,13 @@
 title: "Heitor Trielli"
 last: "Trielli"
 first: "Heitor"
-people_group: "masters"
+people_group: "phd"
 subtitle: "Assistente de Pesquisa"
-education: "Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp"
+education: "Doutorando em Matemática Aplicada e Ciência de Dados, FGV EMAp"
 image: avatar.jpeg
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
@@ -30,17 +27,19 @@ about:
 
 ::: {#perfil}
 
-Mestrando em Matemática Aplicada e Ciência de Dados na FGV EMAp, com mestrado e graduação em Economia pela FGV EPGE. Atua como cientista de dados sênior na MT2 Data.
+Doutorando em Matemática Aplicada e Ciência de Dados na FGV EMAp, com mestrado e 
+graduação em Economia pela FGV EPGE. Atua como cientista de dados sênior na MT2 Data.
 
 ## Formação
 
-- Mestrando em Matemática Aplicada e Ciência de Dados, FGV EMAp.
+- Doutorado em Matemática Aplicada e Ciência de Dados, FGV EMAp
+- Mestrado em Matemática Aplicada e Ciência de Dados, FGV EMAp.
 - Mestrado em Economia, FGV EPGE.
 - Graduação em Economia, FGV EPGE.
 
 ## Interesses
 
-Inferência causal, econometria e programação em Python, R e Julia.
+Previsão de produtividade agrícola e estimativa de rendimento, séries temporais de imagens de satélite e aprendizado autossupervisionado.
 
 :::
 

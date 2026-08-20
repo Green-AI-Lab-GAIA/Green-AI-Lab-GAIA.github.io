@@ -2,16 +2,13 @@
 title: "Heitor Trielli"
 last: "Trielli"
 first: "Heitor"
-people_group: "masters"
+people_group: "phd"
 subtitle: "Research Assistant"
-education: "MSc Student in Applied Mathematics and Data Science, FGV EMAp"
+education: "PhD Candidate in Applied Mathematics and Data Science, FGV EMAp"
 image: avatar.jpeg
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
@@ -30,17 +27,19 @@ about:
 
 ::: {#perfil}
 
-MSc student in Applied Mathematics and Data Science at FGV EMAp, holding an MSc and a BSc in Economics from FGV EPGE. He works as a senior data scientist at MT2 Data.
+PhD candidate in Applied Mathematics and Data Science at FGV EMAp, holding an MSc and 
+a BSc in Economics from FGV EPGE. He works as a senior data scientist at MT2 Data.
 
 ## Education
 
-- MSc student in Applied Mathematics and Data Science, FGV EMAp.
+- PhD student in Applied Mathematics and Data Science, FGV EMAp.
+- MSc in Applied Mathematics and Data Science, FGV EMAp.
 - MSc in Economics, FGV EPGE.
 - BSc in Economics, FGV EPGE.
 
 ## Interests
 
-Causal inference, econometrics, and programming in Python, R, and Julia.
+Crop yield prediction and productivity estimation, satellite image time series, and self-supervised learning.
 
 :::
 

@@ -2,6 +2,10 @@
 # nome-do-arquivo | legenda em português | caption in English
 # Fotos sem linha aqui usam o nome do arquivo como legenda.
 
-cerimomia-pos-2026.jpg | Prestigiando os recém titulados mestres do Lab, Julho de 2026 | Celebrating the Lab's newly minted Master's graduates, July 2026
-fim-de-ano-2025a.jpeg | Confraternização de fim de ano, Dezembro de 2025 | End-of-year gathering, December 2025
-fim-de-ano-2025b.jpeg | Mesma coisa, mas com as mãos para o alto | Same thing, but with hands raised
+01.cerimomia-pos-2026.jpg | Prestigiando os recém titulados mestres do Lab, Julho de 2026 | Celebrating the Lab's newly minted Master's graduates, July 2026
+02.climate-informatics.jpg | 14ª Conferência Internacional de Informática Climática, Abril de 2025 | 14th International Conference on Climate Informatics, April 2025
+03.climate_informatics_closing.jpg | Encerramento da 14ª Conferência Internacional sobre Informática Climática, Abril de 2025 | Closing of the 14th International Conference on Climate Informatics, April 2025 
+04.climate_informatics_group.jpg | Equipe do laboratório que estava acompanhando a conferência, Abril de 2025 | Laboratory team attending the conference, April 2025
+05.fim-de-ano-2025a.jpeg | Confraternização de fim de ano, Dezembro de 2025 | End-of-year gathering, December 2025
+06.fim-de-ano-2025b.jpeg | Mesma coisa, mas com as mãos para o alto | Same thing, but with hands raised
+

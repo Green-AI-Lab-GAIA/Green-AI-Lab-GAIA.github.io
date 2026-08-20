@@ -5,18 +5,15 @@ first: "Rodrigo"
 people_group: "masters"
 subtitle: "Research Assistant"
 education: "MSc Student, FGV EMAp"
-image: avatar.jpeg
+image: avatar.png
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
   image-shape: round
-  image: avatar.jpeg
+  image: avatar.png
   links:
     - icon: linkedin
       text: LinkedIn
@@ -33,7 +30,8 @@ about:
 
 ::: {#perfil}
 
-MSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Data Science and AI from the same school, selected for the Talent Selection program for his performance in the OBMEP olympiad. He interned at Lorinvest Gestão de Recursos.
+MSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Data Science and AI from the same school, 
+selected for the Talent Selection program for his performance in the OBMEP olympiad.
 
 ## Education
 
@@ -43,7 +41,7 @@ MSc student at FGV EMAp and researcher at the GAIA Lab. BSc in Data Science and 
 
 ## Interests
 
-Python, data visualization, and Power BI.
+Python, data visualization, computer vision, and machine learning.
 
 :::
 

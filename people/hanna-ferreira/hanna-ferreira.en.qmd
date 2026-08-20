@@ -9,9 +9,6 @@ image: avatar.jpeg
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
@@ -33,7 +30,10 @@ about:
 
 ::: {#perfil}
 
-Research assistant at the GAIA Lab, applying deep learning models to satellite imagery and environmental challenges. MSc student in Applied Mathematics and Data Science at FGV EMAp, with double BSc degrees in Applied Mathematics and in Data Science and AI. She also researches computer vision at CBPF.
+MSc student in Applied Mathematics and Data Science at FGV EMAp, research assistant at the GAIA Lab, and researcher 
+at CBPF (Brazilian Center for Physics Research). She holds double BSc degrees in Applied Mathematics and in Data 
+Science and AI from the same school. At the GAIA Lab she applies deep learning and computer vision to satellite imagery; 
+at CBPF she applies deep learning and computer vision to image, video, and 3D sensing in the Oil & Gas and Sports domains.
 
 ## Education
 
@@ -43,7 +43,7 @@ Research assistant at the GAIA Lab, applying deep learning models to satellite i
 
 ## Interests
 
-Deep learning, computer vision, and LiDAR.
+Deep learning, computer vision, and uncertainty quantification.
 
 :::
 

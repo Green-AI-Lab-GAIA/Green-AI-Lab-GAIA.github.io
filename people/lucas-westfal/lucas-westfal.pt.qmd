@@ -9,9 +9,6 @@ image: avatar.jpeg
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
@@ -34,7 +31,7 @@ Mestrando na FGV EMAp e pesquisador do GAIA Lab. Bacharel em Matemática Aplicad
 
 ## Formação
 
-- Mestrando,, FGV EMAp.
+- Mestrando, FGV EMAp.
 - Graduação em Matemática Aplicada, FGV EMAp.
 - Técnico em Mecatrônica, IFSC.
 

@@ -9,9 +9,6 @@ image: avatar.jpeg
 page-layout: full
 toc: false
 
-# Perfil com o template 'trestles' do Quarto; só o div #perfil vira a seção
-# de duas colunas — o que fica fora dele (o link de voltar) rende abaixo,
-# em largura total
 about:
   id: perfil
   template: trestles
@@ -33,7 +30,10 @@ about:
 
 ::: {#perfil}
 
-Assistente de pesquisa no GAIA Lab, aplicando modelos de deep learning a imagens de satélite e desafios ambientais. Mestranda em Matemática Aplicada e Ciência de Dados na FGV EMAp, com dupla graduação em Matemática Aplicada e em Ciência de Dados e IA. Também pesquisa visão computacional no CBPF.
+Mestranda em Matemática Aplicada e Ciência de Dados na FGV EMAp, assistente de pesquisa no GAIA Lab e pesquisadora no CBPF 
+(Centro Brasileiro de Pesquisas Físicas). Com dupla graduação em Matemática Aplicada e em Ciência de Dados e IA pela mesma escola. 
+No GAIA Lab aplica deep learning e visão computacional a imagens de satélite; no CBPF aplica deep learning e visão computacional a 
+imagem, vídeo e sensoriamento 3D nos domínios de Óleo & Gás e Esportes.
 
 ## Formação
 
@@ -43,7 +43,7 @@ Assistente de pesquisa no GAIA Lab, aplicando modelos de deep learning a imagens
 
 ## Interesses
 
-Deep learning, visão computacional e LiDAR.
+Deep learning, visão computacional e quantificação de incerteza.
 
 :::
 
